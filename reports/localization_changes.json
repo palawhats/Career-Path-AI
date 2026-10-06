@@ -1,0 +1,180 @@
+{
+  "skills_reviewed": 35,
+  "priority_careers_reviewed": 80,
+  "career_changes": [
+    {
+      "code": "13-1071.00",
+      "english": "Human Resources Specialists",
+      "before": "ผู้เชี่ยวชาญด้านทรัพยากรบุคคล",
+      "after": "เจ้าหน้าที่ทรัพยากรบุคคล"
+    },
+    {
+      "code": "13-1081.00",
+      "english": "Logisticians",
+      "before": "นักโลจิสติกส์",
+      "after": "นักวางแผนโลจิสติกส์"
+    },
+    {
+      "code": "13-1151.00",
+      "english": "Training and Development Specialists",
+      "before": "ผู้เชี่ยวชาญด้านการฝึกอบรมและพัฒนา",
+      "after": "เจ้าหน้าที่ฝึกอบรมและพัฒนาบุคลากร"
+    },
+    {
+      "code": "13-1161.00",
+      "english": "Market Research Analysts and Marketing Specialists",
+      "before": "นักวิเคราะห์วิจัยตลาดและผู้เชี่ยวชาญด้านการตลาด",
+      "after": "นักวิจัยตลาดและผู้เชี่ยวชาญด้านการตลาด"
+    },
+    {
+      "code": "13-2011.00",
+      "english": "Accountants and Auditors",
+      "before": "นักบัญชีและผู้สอบบัญชี",
+      "after": "นักบัญชีและผู้ตรวจสอบบัญชี"
+    },
+    {
+      "code": "15-1212.00",
+      "english": "Information Security Analysts",
+      "before": "นักวิเคราะห์ความมั่นคงปลอดภัยสารสนเทศ",
+      "after": "นักวิเคราะห์ความมั่นคงปลอดภัยไซเบอร์"
+    },
+    {
+      "code": "15-1231.00",
+      "english": "Computer Network Support Specialists",
+      "before": "ผู้เชี่ยวชาญสนับสนุนเครือข่ายคอมพิวเตอร์",
+      "after": "เจ้าหน้าที่ดูแลและแก้ปัญหาเครือข่ายคอมพิวเตอร์"
+    },
+    {
+      "code": "15-1232.00",
+      "english": "Computer User Support Specialists",
+      "before": "ผู้เชี่ยวชาญช่วยเหลือผู้ใช้คอมพิวเตอร์",
+      "after": "เจ้าหน้าที่สนับสนุนการใช้งานคอมพิวเตอร์"
+    },
+    {
+      "code": "15-1241.00",
+      "english": "Computer Network Architects",
+      "before": "สถาปนิกเครือข่ายคอมพิวเตอร์",
+      "after": "นักออกแบบเครือข่ายคอมพิวเตอร์"
+    },
+    {
+      "code": "15-1243.00",
+      "english": "Database Architects",
+      "before": "สถาปนิกฐานข้อมูล",
+      "after": "นักออกแบบระบบฐานข้อมูล"
+    },
+    {
+      "code": "15-1251.00",
+      "english": "Computer Programmers",
+      "before": "นักเขียนโปรแกรมคอมพิวเตอร์",
+      "after": "โปรแกรมเมอร์"
+    },
+    {
+      "code": "15-1253.00",
+      "english": "Software Quality Assurance Analysts and Testers",
+      "before": "นักวิเคราะห์การประกันคุณภาพและผู้ทดสอบซอฟต์แวร์",
+      "after": "นักวิเคราะห์และทดสอบคุณภาพซอฟต์แวร์"
+    },
+    {
+      "code": "15-1255.00",
+      "english": "Web and Digital Interface Designers",
+      "before": "นักออกแบบเว็บไซต์และส่วนติดต่อผู้ใช้ดิจิทัล",
+      "after": "นักออกแบบเว็บไซต์และส่วนติดต่อผู้ใช้"
+    },
+    {
+      "code": "15-2031.00",
+      "english": "Operations Research Analysts",
+      "before": "นักวิเคราะห์วิจัยการดำเนินงาน",
+      "after": "นักวิเคราะห์วิจัยดำเนินงาน"
+    },
+    {
+      "code": "17-1011.00",
+      "english": "Architects, Except Landscape and Naval",
+      "before": "สถาปนิก ยกเว้นภูมิสถาปัตยกรรมและสถาปัตยกรรมเรือ",
+      "after": "สถาปนิก"
+    },
+    {
+      "code": "17-2072.00",
+      "english": "Electronics Engineers, Except Computer",
+      "before": "วิศวกรอิเล็กทรอนิกส์ ยกเว้นด้านคอมพิวเตอร์",
+      "after": "วิศวกรอิเล็กทรอนิกส์"
+    },
+    {
+      "code": "25-2011.00",
+      "english": "Preschool Teachers, Except Special Education",
+      "before": "ครูปฐมวัย ยกเว้นการศึกษาพิเศษ",
+      "after": "ครูปฐมวัย"
+    },
+    {
+      "code": "25-2012.00",
+      "english": "Kindergarten Teachers, Except Special Education",
+      "before": "ครูอนุบาล ยกเว้นการศึกษาพิเศษ",
+      "after": "ครูอนุบาล"
+    },
+    {
+      "code": "25-2021.00",
+      "english": "Elementary School Teachers, Except Special Education",
+      "before": "ครูประถมศึกษา ยกเว้นการศึกษาพิเศษ",
+      "after": "ครูระดับประถมศึกษา"
+    },
+    {
+      "code": "25-2022.00",
+      "english": "Middle School Teachers, Except Special and Career/Technical Education",
+      "before": "ครูมัธยมศึกษาตอนต้น ยกเว้นการศึกษาพิเศษและอาชีวศึกษา",
+      "after": "ครูระดับมัธยมศึกษาตอนต้น"
+    },
+    {
+      "code": "25-2031.00",
+      "english": "Secondary School Teachers, Except Special and Career/Technical Education",
+      "before": "ครูมัธยมศึกษาตอนปลาย ยกเว้นการศึกษาพิเศษและอาชีวศึกษา",
+      "after": "ครูระดับมัธยมศึกษา"
+    },
+    {
+      "code": "25-4022.00",
+      "english": "Librarians and Media Collections Specialists",
+      "before": "บรรณารักษ์และผู้เชี่ยวชาญจัดการคลังสื่อ",
+      "after": "บรรณารักษ์และผู้ดูแลสื่อการเรียนรู้"
+    },
+    {
+      "code": "27-1014.00",
+      "english": "Special Effects Artists and Animators",
+      "before": "ศิลปินเทคนิคพิเศษและนักสร้างภาพเคลื่อนไหว",
+      "after": "นักสร้างเทคนิคพิเศษและแอนิเมชัน"
+    },
+    {
+      "code": "27-2012.00",
+      "english": "Producers and Directors",
+      "before": "ผู้อำนวยการสร้างและผู้กำกับ",
+      "after": "โปรดิวเซอร์และผู้กำกับ"
+    },
+    {
+      "code": "27-3031.00",
+      "english": "Public Relations Specialists",
+      "before": "ผู้เชี่ยวชาญด้านประชาสัมพันธ์",
+      "after": "เจ้าหน้าที่ประชาสัมพันธ์"
+    },
+    {
+      "code": "27-3042.00",
+      "english": "Technical Writers",
+      "before": "นักเขียนเอกสารทางเทคนิค",
+      "after": "นักเขียนเอกสารเทคนิค"
+    },
+    {
+      "code": "27-3043.00",
+      "english": "Writers and Authors",
+      "before": "นักเขียนและนักประพันธ์",
+      "after": "นักเขียน"
+    },
+    {
+      "code": "35-1011.00",
+      "english": "Chefs and Head Cooks",
+      "before": "เชฟและหัวหน้าพ่อครัว",
+      "after": "เชฟและหัวหน้าครัว"
+    },
+    {
+      "code": "39-7011.00",
+      "english": "Tour Guides and Escorts",
+      "before": "มัคคุเทศก์และผู้นำชม",
+      "after": "มัคคุเทศก์และผู้นำเที่ยว"
+    }
+  ]
+}

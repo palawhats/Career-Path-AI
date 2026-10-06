@@ -1,0 +1,66 @@
+
+> test
+> node --test tests/*.test.cjs
+
+✔ both catalogs have the same nonempty keys (2.6692ms)
+✔ default Thai, switch English and persist language (1.7437ms)
+✔ all UI literal translation keys exist in each language (1.6188ms)
+✔ Thai default and English language switch translate navigation and landing (154.1397ms)
+✔ assessment preserves chosen value across language switch (91.9737ms)
+✔ all 35 questions render once across the five categories and are required (76.3229ms)
+✔ ten real result fixtures render, score order remains monotonic and code links work (45.547ms)
+✔ direct career without answers hides personalization but displays important and all skills (53.0786ms)
+✔ personalized career has real gaps and translates development metrics (74.2498ms)
+✔ clearing answers resets progress and does not write assessment to localStorage (74.4041ms)
+✔ full assessment submits exactly the 35 original identifiers and reaches ten results (263.8095ms)
+✔ Thai career title safely falls back to original English when translation is absent (71.9139ms)
+✔ paste rejects 34 values atomically (72.9506ms)
+✔ paste rejects 36 values atomically (73.3283ms)
+✔ paste rejects 0 atomically (66.461ms)
+✔ paste rejects 6 atomically (76.7624ms)
+✔ paste rejects 2.5 atomically (77.7132ms)
+✔ paste rejects text atomically (78.5729ms)
+✔ paste rejects <script>alert(1)</script> atomically (82.9337ms)
+✔ paste rejects 3x atomically (75.079ms)
+✔ paste rejects NaN atomically (68.3445ms)
+✔ paste accepts commas and updates all canonical skills and progress (126.8971ms)
+✔ paste accepts spaces and updates all canonical skills and progress (117.5481ms)
+✔ paste accepts newlines and updates all canonical skills and progress (125.2386ms)
+✔ paste accepts mixed and updates all canonical skills and progress (110.8636ms)
+✔ pasted values survive language switching, submit through normal flow and clear (234.2171ms)
+✔ cancel and Escape leave assessment untouched and modal shows canonical order (57.3334ms)
+✔ Thai validation errors are translated (77.748ms)
+✔ student landing has three steps and no technical hero text (42.4844ms)
+✔ rating choices show all five labels and original values with secondary English skill names (40.1906ms)
+✔ result cards show three original matching skills without technical subtitle (104.6692ms)
+✔ career details show first five existing important skills and collapsed full35 after development (42.2927ms)
+✔ skip link focuses content without changing route or assessment state (35.2195ms)
+✔ doctor demo uses canonical pasted values and normal submit/detail flow in both languages (238.1212ms)
+✔ refresh restores saved assessment and language on results and direct career routes (85.8715ms)
+✔ all canonical skill content has nonblank Thai/English explanations and examples (0.8011ms)
+✔ all35 accessible info buttons open and close in-flow explanations without changing ratings (100.3181ms)
+✔ language switching translates open help and preserves answer, progress and help state (118.7846ms)
+✔ opening a second skill closes the first and category navigation retains selected help (58.7077ms)
+✔ rating help explains all five anchors without changing numeric choices (36.4286ms)
+✔ pasting values preserves open help and keeps normal submit behavior (110.9671ms)
+✔ exact locked questions are always visible for all35 skills in Thai and English (223.631ms)
+✔ new rating anchors and no-experience instruction are consistent for all categories (137.1141ms)
+✔ behavioral wording changes only presentation through paste, language switch and submission (160.5929ms)
+✔ presentation labels and calculation details preserve raw values in th (66.9812ms)
+✔ presentation labels and calculation details preserve raw values in en (78.3088ms)
+✔ metric bands classify exact boundaries without mutating values (42.2891ms)
+✔ example gap communicates percentage points and both source scales (40.0023ms)
+✔ career exploration positioning and limitations are complete in th (67.8363ms)
+✔ career exploration positioning and limitations are complete in en (77.9883ms)
+✔ UI-only career level mapping covers endpoints and required examples without rounding the helper (45.5837ms)
+✔ all displayed career levels use 1–5 and preserve original source details in th (92.019ms)
+✔ all displayed career levels use 1–5 and preserve original source details in en (77.085ms)
+✔ displaying examples A and B leaves gap, priority and normalized bars untouched (37.3009ms)
+ℹ tests 54
+ℹ suites 0
+ℹ pass 54
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5295.4152

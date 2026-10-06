@@ -1,0 +1,1251 @@
+{
+  "values": [
+    3,
+    4,
+    3,
+    3,
+    4,
+    1,
+    1,
+    1,
+    3,
+    4,
+    3,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    1,
+    3,
+    2,
+    3,
+    1,
+    2,
+    4,
+    1,
+    3,
+    3,
+    3,
+    4,
+    3,
+    3,
+    1,
+    3,
+    1,
+    3
+  ],
+  "answers": {
+    "Active_Learning": 3,
+    "Active_Listening": 4,
+    "Complex_Problem_Solving": 3,
+    "Coordination": 3,
+    "Critical_Thinking": 4,
+    "Equipment_Maintenance": 1,
+    "Equipment_Selection": 1,
+    "Installation": 1,
+    "Instructing": 3,
+    "Judgment_and_Decision_Making": 4,
+    "Learning_Strategies": 3,
+    "Management_of_Financial_Resources": 2,
+    "Management_of_Material_Resources": 2,
+    "Management_of_Personnel_Resources": 3,
+    "Mathematics": 3,
+    "Monitoring": 3,
+    "Negotiation": 3,
+    "Operation_and_Control": 1,
+    "Operations_Analysis": 3,
+    "Operations_Monitoring": 2,
+    "Persuasion": 3,
+    "Programming": 1,
+    "Quality_Control_Analysis": 2,
+    "Reading_Comprehension": 4,
+    "Repairing": 1,
+    "Science": 3,
+    "Service_Orientation": 3,
+    "Social_Perceptiveness": 3,
+    "Speaking": 4,
+    "Systems_Analysis": 3,
+    "Systems_Evaluation": 3,
+    "Technology_Design": 1,
+    "Time_Management": 3,
+    "Troubleshooting": 1,
+    "Writing": 3
+  },
+  "match": {
+    "recommendations": [
+      {
+        "onet_code": "29-1215.00",
+        "career_en": "Family Medicine Physicians",
+        "career_th": "แพทย์เวชศาสตร์ครอบครัว",
+        "rank": 1,
+        "distance": 0.40977594674481954,
+        "match_score": 93.0735223024642,
+        "matching_skills": [
+          {
+            "skill": "Management_of_Personnel_Resources",
+            "difference": 0.0,
+            "importance": 3.0
+          },
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Repairing",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Persuasion",
+            "difference": 0.017142857142857126,
+            "importance": 3.0
+          }
+        ]
+      },
+      {
+        "onet_code": "29-1221.00",
+        "career_en": "Pediatricians, General",
+        "career_th": "กุมารแพทย์ทั่วไป",
+        "rank": 2,
+        "distance": 0.4378542297735795,
+        "match_score": 92.59891269511964,
+        "matching_skills": [
+          {
+            "skill": "Coordination",
+            "difference": 0.0,
+            "importance": 3.38
+          },
+          {
+            "skill": "Time_Management",
+            "difference": 0.0,
+            "importance": 3.0
+          },
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Equipment_Selection",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          }
+        ]
+      },
+      {
+        "onet_code": "29-1218.00",
+        "career_en": "Obstetricians and Gynecologists",
+        "career_th": "สูตินรีแพทย์",
+        "rank": 3,
+        "distance": 0.4382153044580072,
+        "match_score": 92.59280941900326,
+        "matching_skills": [
+          {
+            "skill": "Reading_Comprehension",
+            "difference": 0.0,
+            "importance": 4.25
+          },
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Equipment_Selection",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Repairing",
+            "difference": 0.0,
+            "importance": 1.0
+          }
+        ]
+      },
+      {
+        "onet_code": "29-1216.00",
+        "career_en": "General Internal Medicine Physicians",
+        "career_th": "อายุรแพทย์ทั่วไป",
+        "rank": 4,
+        "distance": 0.46837103728927215,
+        "match_score": 92.08308450086726,
+        "matching_skills": [
+          {
+            "skill": "Coordination",
+            "difference": 0.0,
+            "importance": 3.25
+          },
+          {
+            "skill": "Instructing",
+            "difference": 0.017142857142857126,
+            "importance": 3.12
+          },
+          {
+            "skill": "Learning_Strategies",
+            "difference": 0.017142857142857126,
+            "importance": 3.12
+          },
+          {
+            "skill": "Persuasion",
+            "difference": 0.017142857142857126,
+            "importance": 3.12
+          },
+          {
+            "skill": "Systems_Evaluation",
+            "difference": 0.017142857142857126,
+            "importance": 3.12
+          }
+        ]
+      },
+      {
+        "onet_code": "25-1051.00",
+        "career_en": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
+        "career_th": "อาจารย์วิทยาศาสตร์บรรยากาศ โลก ทะเล และอวกาศระดับหลังมัธยมศึกษา",
+        "rank": 5,
+        "distance": 0.5077782739643406,
+        "match_score": 91.4169806260067,
+        "matching_skills": [
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Equipment_Selection",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Operation_and_Control",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Repairing",
+            "difference": 0.0,
+            "importance": 1.0
+          }
+        ]
+      },
+      {
+        "onet_code": "29-1051.00",
+        "career_en": "Pharmacists",
+        "career_th": "เภสัชกร",
+        "rank": 6,
+        "distance": 0.5113088447248659,
+        "match_score": 91.35730308800915,
+        "matching_skills": [
+          {
+            "skill": "Instructing",
+            "difference": 0.0,
+            "importance": 3.0
+          },
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Repairing",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Coordination",
+            "difference": 0.017142857142857126,
+            "importance": 3.38
+          }
+        ]
+      },
+      {
+        "onet_code": "25-1053.00",
+        "career_en": "Environmental Science Teachers, Postsecondary",
+        "career_th": "อาจารย์วิทยาศาสตร์สิ่งแวดล้อมระดับหลังมัธยมศึกษา",
+        "rank": 7,
+        "distance": 0.5129267760129305,
+        "match_score": 91.32995505776982,
+        "matching_skills": [
+          {
+            "skill": "Time_Management",
+            "difference": 0.0,
+            "importance": 3.0
+          },
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Equipment_Selection",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Operation_and_Control",
+            "difference": 0.0,
+            "importance": 1.0
+          }
+        ]
+      },
+      {
+        "onet_code": "29-1071.00",
+        "career_en": "Physician Assistants",
+        "career_th": "ผู้ช่วยแพทย์",
+        "rank": 8,
+        "distance": 0.520051017905444,
+        "match_score": 91.20953339082635,
+        "matching_skills": [
+          {
+            "skill": "Persuasion",
+            "difference": 0.0,
+            "importance": 3.25
+          },
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Operation_and_Control",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Repairing",
+            "difference": 0.0,
+            "importance": 1.0
+          }
+        ]
+      },
+      {
+        "onet_code": "19-3051.00",
+        "career_en": "Urban and Regional Planners",
+        "career_th": "นักวางผังเมืองและภูมิภาค",
+        "rank": 9,
+        "distance": 0.5282643895873749,
+        "match_score": 91.07070207037336,
+        "matching_skills": [
+          {
+            "skill": "Mathematics",
+            "difference": 0.0,
+            "importance": 3.0
+          },
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Equipment_Selection",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Repairing",
+            "difference": 0.0,
+            "importance": 1.0
+          }
+        ]
+      },
+      {
+        "onet_code": "19-1041.00",
+        "career_en": "Epidemiologists",
+        "career_th": "นักระบาดวิทยา",
+        "rank": 10,
+        "distance": 0.5407232495954482,
+        "match_score": 90.86010889947555,
+        "matching_skills": [
+          {
+            "skill": "Management_of_Personnel_Resources",
+            "difference": 0.0,
+            "importance": 3.12
+          },
+          {
+            "skill": "Operations_Analysis",
+            "difference": 0.0,
+            "importance": 3.0
+          },
+          {
+            "skill": "Management_of_Material_Resources",
+            "difference": 0.0,
+            "importance": 2.0
+          },
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "career": {
+    "onet_code": "29-1215.00",
+    "career_en": "Family Medicine Physicians",
+    "career_th": "แพทย์เวชศาสตร์ครอบครัว",
+    "skills": [
+      {
+        "skill": "Active_Learning",
+        "level": 4.0,
+        "importance": 4.0
+      },
+      {
+        "skill": "Active_Listening",
+        "level": 4.88,
+        "importance": 4.25
+      },
+      {
+        "skill": "Complex_Problem_Solving",
+        "level": 4.25,
+        "importance": 4.0
+      },
+      {
+        "skill": "Coordination",
+        "level": 3.88,
+        "importance": 3.12
+      },
+      {
+        "skill": "Critical_Thinking",
+        "level": 4.5,
+        "importance": 4.38
+      },
+      {
+        "skill": "Equipment_Maintenance",
+        "level": 0.0,
+        "importance": 1.0
+      },
+      {
+        "skill": "Equipment_Selection",
+        "level": 0.38,
+        "importance": 1.25
+      },
+      {
+        "skill": "Installation",
+        "level": 0.0,
+        "importance": 1.0
+      },
+      {
+        "skill": "Instructing",
+        "level": 4.0,
+        "importance": 3.38
+      },
+      {
+        "skill": "Judgment_and_Decision_Making",
+        "level": 4.75,
+        "importance": 4.0
+      },
+      {
+        "skill": "Learning_Strategies",
+        "level": 3.25,
+        "importance": 3.25
+      },
+      {
+        "skill": "Management_of_Financial_Resources",
+        "level": 1.0,
+        "importance": 1.62
+      },
+      {
+        "skill": "Management_of_Material_Resources",
+        "level": 1.25,
+        "importance": 1.62
+      },
+      {
+        "skill": "Management_of_Personnel_Resources",
+        "level": 3.5,
+        "importance": 3.0
+      },
+      {
+        "skill": "Mathematics",
+        "level": 2.88,
+        "importance": 2.75
+      },
+      {
+        "skill": "Monitoring",
+        "level": 4.0,
+        "importance": 4.0
+      },
+      {
+        "skill": "Negotiation",
+        "level": 3.0,
+        "importance": 2.88
+      },
+      {
+        "skill": "Operation_and_Control",
+        "level": 0.25,
+        "importance": 1.12
+      },
+      {
+        "skill": "Operations_Analysis",
+        "level": 2.75,
+        "importance": 2.5
+      },
+      {
+        "skill": "Operations_Monitoring",
+        "level": 2.12,
+        "importance": 2.12
+      },
+      {
+        "skill": "Persuasion",
+        "level": 3.62,
+        "importance": 3.0
+      },
+      {
+        "skill": "Programming",
+        "level": 0.38,
+        "importance": 1.25
+      },
+      {
+        "skill": "Quality_Control_Analysis",
+        "level": 2.0,
+        "importance": 2.12
+      },
+      {
+        "skill": "Reading_Comprehension",
+        "level": 5.0,
+        "importance": 4.25
+      },
+      {
+        "skill": "Repairing",
+        "level": 0.0,
+        "importance": 1.0
+      },
+      {
+        "skill": "Science",
+        "level": 4.0,
+        "importance": 3.88
+      },
+      {
+        "skill": "Service_Orientation",
+        "level": 3.88,
+        "importance": 3.88
+      },
+      {
+        "skill": "Social_Perceptiveness",
+        "level": 3.88,
+        "importance": 3.88
+      },
+      {
+        "skill": "Speaking",
+        "level": 4.38,
+        "importance": 4.12
+      },
+      {
+        "skill": "Systems_Analysis",
+        "level": 2.88,
+        "importance": 2.88
+      },
+      {
+        "skill": "Systems_Evaluation",
+        "level": 2.88,
+        "importance": 2.88
+      },
+      {
+        "skill": "Technology_Design",
+        "level": 0.38,
+        "importance": 1.25
+      },
+      {
+        "skill": "Time_Management",
+        "level": 3.88,
+        "importance": 4.0
+      },
+      {
+        "skill": "Troubleshooting",
+        "level": 0.62,
+        "importance": 1.5
+      },
+      {
+        "skill": "Writing",
+        "level": 4.12,
+        "importance": 4.12
+      }
+    ],
+    "important_skills": [
+      {
+        "skill": "Critical_Thinking",
+        "level": 4.5,
+        "importance": 4.38
+      },
+      {
+        "skill": "Reading_Comprehension",
+        "level": 5.0,
+        "importance": 4.25
+      },
+      {
+        "skill": "Active_Listening",
+        "level": 4.88,
+        "importance": 4.25
+      },
+      {
+        "skill": "Speaking",
+        "level": 4.38,
+        "importance": 4.12
+      },
+      {
+        "skill": "Writing",
+        "level": 4.12,
+        "importance": 4.12
+      },
+      {
+        "skill": "Judgment_and_Decision_Making",
+        "level": 4.75,
+        "importance": 4.0
+      },
+      {
+        "skill": "Complex_Problem_Solving",
+        "level": 4.25,
+        "importance": 4.0
+      },
+      {
+        "skill": "Active_Learning",
+        "level": 4.0,
+        "importance": 4.0
+      },
+      {
+        "skill": "Monitoring",
+        "level": 4.0,
+        "importance": 4.0
+      },
+      {
+        "skill": "Time_Management",
+        "level": 3.88,
+        "importance": 4.0
+      }
+    ],
+    "source": "O*NET-derived supplied CSV",
+    "level_scale": [
+      0,
+      7
+    ],
+    "importance_scale": [
+      1,
+      5
+    ]
+  },
+  "gap": {
+    "development": [
+      {
+        "skill": "Complex_Problem_Solving",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.25,
+        "career_normalized": 0.6071428571428571,
+        "importance": 4.0,
+        "gap": 0.1071428571428571,
+        "priority": 0.08035714285714282
+      },
+      {
+        "skill": "Writing",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.12,
+        "career_normalized": 0.5885714285714286,
+        "importance": 4.12,
+        "gap": 0.08857142857142863,
+        "priority": 0.06908571428571433
+      },
+      {
+        "skill": "Active_Learning",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.0,
+        "career_normalized": 0.5714285714285714,
+        "importance": 4.0,
+        "gap": 0.0714285714285714,
+        "priority": 0.05357142857142855
+      },
+      {
+        "skill": "Monitoring",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.0,
+        "career_normalized": 0.5714285714285714,
+        "importance": 4.0,
+        "gap": 0.0714285714285714,
+        "priority": 0.05357142857142855
+      },
+      {
+        "skill": "Science",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.0,
+        "career_normalized": 0.5714285714285714,
+        "importance": 3.88,
+        "gap": 0.0714285714285714,
+        "priority": 0.05142857142857141
+      }
+    ],
+    "aligned": [
+      {
+        "skill": "Critical_Thinking",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 4.5,
+        "career_normalized": 0.6428571428571429,
+        "importance": 4.38,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Active_Listening",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 4.88,
+        "career_normalized": 0.6971428571428572,
+        "importance": 4.25,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Reading_Comprehension",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 5.0,
+        "career_normalized": 0.7142857142857143,
+        "importance": 4.25,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Speaking",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 4.38,
+        "career_normalized": 0.6257142857142857,
+        "importance": 4.12,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Judgment_and_Decision_Making",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 4.75,
+        "career_normalized": 0.6785714285714286,
+        "importance": 4.0,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Learning_Strategies",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.25,
+        "career_normalized": 0.4642857142857143,
+        "importance": 3.25,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Management_of_Personnel_Resources",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.5,
+        "career_normalized": 0.5,
+        "importance": 3.0,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Negotiation",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.0,
+        "career_normalized": 0.42857142857142855,
+        "importance": 2.88,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Systems_Analysis",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 2.88,
+        "career_normalized": 0.4114285714285714,
+        "importance": 2.88,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Systems_Evaluation",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 2.88,
+        "career_normalized": 0.4114285714285714,
+        "importance": 2.88,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Mathematics",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 2.88,
+        "career_normalized": 0.4114285714285714,
+        "importance": 2.75,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Operations_Analysis",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 2.75,
+        "career_normalized": 0.39285714285714285,
+        "importance": 2.5,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Management_of_Financial_Resources",
+        "self_rating": 2,
+        "user_normalized": 0.25,
+        "occupational_level": 1.0,
+        "career_normalized": 0.14285714285714285,
+        "importance": 1.62,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Management_of_Material_Resources",
+        "self_rating": 2,
+        "user_normalized": 0.25,
+        "occupational_level": 1.25,
+        "career_normalized": 0.17857142857142858,
+        "importance": 1.62,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Equipment_Maintenance",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.0,
+        "career_normalized": 0.0,
+        "importance": 1.0,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Installation",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.0,
+        "career_normalized": 0.0,
+        "importance": 1.0,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Repairing",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.0,
+        "career_normalized": 0.0,
+        "importance": 1.0,
+        "gap": 0.0,
+        "priority": 0.0
+      }
+    ],
+    "all_skills": [
+      {
+        "skill": "Complex_Problem_Solving",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.25,
+        "career_normalized": 0.6071428571428571,
+        "importance": 4.0,
+        "gap": 0.1071428571428571,
+        "priority": 0.08035714285714282
+      },
+      {
+        "skill": "Writing",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.12,
+        "career_normalized": 0.5885714285714286,
+        "importance": 4.12,
+        "gap": 0.08857142857142863,
+        "priority": 0.06908571428571433
+      },
+      {
+        "skill": "Active_Learning",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.0,
+        "career_normalized": 0.5714285714285714,
+        "importance": 4.0,
+        "gap": 0.0714285714285714,
+        "priority": 0.05357142857142855
+      },
+      {
+        "skill": "Monitoring",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.0,
+        "career_normalized": 0.5714285714285714,
+        "importance": 4.0,
+        "gap": 0.0714285714285714,
+        "priority": 0.05357142857142855
+      },
+      {
+        "skill": "Science",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.0,
+        "career_normalized": 0.5714285714285714,
+        "importance": 3.88,
+        "gap": 0.0714285714285714,
+        "priority": 0.05142857142857141
+      },
+      {
+        "skill": "Instructing",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 4.0,
+        "career_normalized": 0.5714285714285714,
+        "importance": 3.38,
+        "gap": 0.0714285714285714,
+        "priority": 0.04249999999999998
+      },
+      {
+        "skill": "Time_Management",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.88,
+        "career_normalized": 0.5542857142857143,
+        "importance": 4.0,
+        "gap": 0.05428571428571427,
+        "priority": 0.0407142857142857
+      },
+      {
+        "skill": "Service_Orientation",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.88,
+        "career_normalized": 0.5542857142857143,
+        "importance": 3.88,
+        "gap": 0.05428571428571427,
+        "priority": 0.03908571428571427
+      },
+      {
+        "skill": "Social_Perceptiveness",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.88,
+        "career_normalized": 0.5542857142857143,
+        "importance": 3.88,
+        "gap": 0.05428571428571427,
+        "priority": 0.03908571428571427
+      },
+      {
+        "skill": "Coordination",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.88,
+        "career_normalized": 0.5542857142857143,
+        "importance": 3.12,
+        "gap": 0.05428571428571427,
+        "priority": 0.028771428571428566
+      },
+      {
+        "skill": "Operations_Monitoring",
+        "self_rating": 2,
+        "user_normalized": 0.25,
+        "occupational_level": 2.12,
+        "career_normalized": 0.3028571428571429,
+        "importance": 2.12,
+        "gap": 0.05285714285714288,
+        "priority": 0.014800000000000008
+      },
+      {
+        "skill": "Troubleshooting",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.62,
+        "career_normalized": 0.08857142857142856,
+        "importance": 1.5,
+        "gap": 0.08857142857142856,
+        "priority": 0.01107142857142857
+      },
+      {
+        "skill": "Quality_Control_Analysis",
+        "self_rating": 2,
+        "user_normalized": 0.25,
+        "occupational_level": 2.0,
+        "career_normalized": 0.2857142857142857,
+        "importance": 2.12,
+        "gap": 0.0357142857142857,
+        "priority": 0.009999999999999997
+      },
+      {
+        "skill": "Persuasion",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.62,
+        "career_normalized": 0.5171428571428571,
+        "importance": 3.0,
+        "gap": 0.017142857142857126,
+        "priority": 0.008571428571428563
+      },
+      {
+        "skill": "Equipment_Selection",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.38,
+        "career_normalized": 0.054285714285714284,
+        "importance": 1.25,
+        "gap": 0.054285714285714284,
+        "priority": 0.0033928571428571428
+      },
+      {
+        "skill": "Programming",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.38,
+        "career_normalized": 0.054285714285714284,
+        "importance": 1.25,
+        "gap": 0.054285714285714284,
+        "priority": 0.0033928571428571428
+      },
+      {
+        "skill": "Technology_Design",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.38,
+        "career_normalized": 0.054285714285714284,
+        "importance": 1.25,
+        "gap": 0.054285714285714284,
+        "priority": 0.0033928571428571428
+      },
+      {
+        "skill": "Operation_and_Control",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.25,
+        "career_normalized": 0.03571428571428571,
+        "importance": 1.12,
+        "gap": 0.03571428571428571,
+        "priority": 0.0010714285714285723
+      },
+      {
+        "skill": "Critical_Thinking",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 4.5,
+        "career_normalized": 0.6428571428571429,
+        "importance": 4.38,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Active_Listening",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 4.88,
+        "career_normalized": 0.6971428571428572,
+        "importance": 4.25,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Reading_Comprehension",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 5.0,
+        "career_normalized": 0.7142857142857143,
+        "importance": 4.25,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Speaking",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 4.38,
+        "career_normalized": 0.6257142857142857,
+        "importance": 4.12,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Judgment_and_Decision_Making",
+        "self_rating": 4,
+        "user_normalized": 0.75,
+        "occupational_level": 4.75,
+        "career_normalized": 0.6785714285714286,
+        "importance": 4.0,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Learning_Strategies",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.25,
+        "career_normalized": 0.4642857142857143,
+        "importance": 3.25,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Management_of_Personnel_Resources",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.5,
+        "career_normalized": 0.5,
+        "importance": 3.0,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Negotiation",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 3.0,
+        "career_normalized": 0.42857142857142855,
+        "importance": 2.88,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Systems_Analysis",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 2.88,
+        "career_normalized": 0.4114285714285714,
+        "importance": 2.88,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Systems_Evaluation",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 2.88,
+        "career_normalized": 0.4114285714285714,
+        "importance": 2.88,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Mathematics",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 2.88,
+        "career_normalized": 0.4114285714285714,
+        "importance": 2.75,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Operations_Analysis",
+        "self_rating": 3,
+        "user_normalized": 0.5,
+        "occupational_level": 2.75,
+        "career_normalized": 0.39285714285714285,
+        "importance": 2.5,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Management_of_Financial_Resources",
+        "self_rating": 2,
+        "user_normalized": 0.25,
+        "occupational_level": 1.0,
+        "career_normalized": 0.14285714285714285,
+        "importance": 1.62,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Management_of_Material_Resources",
+        "self_rating": 2,
+        "user_normalized": 0.25,
+        "occupational_level": 1.25,
+        "career_normalized": 0.17857142857142858,
+        "importance": 1.62,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Equipment_Maintenance",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.0,
+        "career_normalized": 0.0,
+        "importance": 1.0,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Installation",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.0,
+        "career_normalized": 0.0,
+        "importance": 1.0,
+        "gap": 0.0,
+        "priority": 0.0
+      },
+      {
+        "skill": "Repairing",
+        "self_rating": 1,
+        "user_normalized": 0.0,
+        "occupational_level": 0.0,
+        "career_normalized": 0.0,
+        "importance": 1.0,
+        "gap": 0.0,
+        "priority": 0.0
+      }
+    ]
+  }
+}

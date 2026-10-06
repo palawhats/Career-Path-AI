@@ -1,0 +1,56 @@
+
+> test
+> node --test tests/*.test.cjs
+
+✔ both catalogs have the same nonempty keys (1.9767ms)
+✔ default Thai, switch English and persist language (2.1828ms)
+✔ all UI literal translation keys exist in each language (1.0709ms)
+✔ Thai default and English language switch translate navigation and landing (132.9522ms)
+✔ assessment preserves chosen value across language switch (93.4408ms)
+✔ all 35 questions render once across the five categories and are required (75.3685ms)
+✔ ten real result fixtures render, score order remains monotonic and code links work (41.2214ms)
+✔ direct career without answers hides personalization but displays important and all skills (39.7606ms)
+✔ personalized career has real gaps and translates development metrics (76.3514ms)
+✔ clearing answers resets progress and does not write assessment to localStorage (78.7697ms)
+✔ full assessment submits exactly the 35 original identifiers and reaches ten results (280.616ms)
+✔ Thai career title safely falls back to original English when translation is absent (62.639ms)
+✔ paste rejects 34 values atomically (85.0375ms)
+✔ paste rejects 36 values atomically (77.6793ms)
+✔ paste rejects 0 atomically (83.4161ms)
+✔ paste rejects 6 atomically (75.3451ms)
+✔ paste rejects 2.5 atomically (72.9077ms)
+✔ paste rejects text atomically (67.5559ms)
+✔ paste rejects <script>alert(1)</script> atomically (71.7441ms)
+✔ paste rejects 3x atomically (79.2077ms)
+✔ paste rejects NaN atomically (74.3103ms)
+✔ paste accepts commas and updates all canonical skills and progress (113.0099ms)
+✔ paste accepts spaces and updates all canonical skills and progress (124.0571ms)
+✔ paste accepts newlines and updates all canonical skills and progress (122.4412ms)
+✔ paste accepts mixed and updates all canonical skills and progress (114.0682ms)
+✔ pasted values survive language switching, submit through normal flow and clear (241.1364ms)
+✔ cancel and Escape leave assessment untouched and modal shows canonical order (48.6274ms)
+✔ Thai validation errors are translated (76.1875ms)
+✔ student landing has three steps and no technical hero text (43.7038ms)
+✔ rating choices show all five labels and original values with secondary English skill names (63.7346ms)
+✔ result cards show three original matching skills without technical subtitle (135.5013ms)
+✔ career details show first five existing important skills and collapsed full35 after development (62.8443ms)
+✔ skip link focuses content without changing route or assessment state (56.7767ms)
+✔ doctor demo uses canonical pasted values and normal submit/detail flow in both languages (297.8963ms)
+✔ refresh restores saved assessment and language on results and direct career routes (95.1377ms)
+✔ all canonical skill content has nonblank Thai/English explanations and examples (1.4633ms)
+✔ all35 accessible info buttons open and close in-flow explanations without changing ratings (254.2914ms)
+✔ language switching translates open help and preserves answer, progress and help state (186.0185ms)
+✔ opening a second skill closes the first and category navigation retains selected help (80.4645ms)
+✔ rating help explains all five anchors without changing numeric choices (49.3341ms)
+✔ pasting values preserves open help and keeps normal submit behavior (148.8042ms)
+✔ exact locked questions are always visible for all35 skills in Thai and English (659.2092ms)
+✔ new rating anchors and no-experience instruction are consistent for all categories (300.3174ms)
+✔ behavioral wording changes only presentation through paste, language switch and submission (227.0355ms)
+ℹ tests 44
+ℹ suites 0
+ℹ pass 44
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5833.3459

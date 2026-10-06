@@ -1,0 +1,295 @@
+{
+  "skills": [
+    {
+      "id": "Active_Learning",
+      "th": "การเรียนรู้และนำความรู้ใหม่ไปใช้",
+      "en": "Active Learning",
+      "description_th": "ทำความเข้าใจเรื่องใหม่ แล้วนำความรู้นั้นไปใช้แก้ปัญหาหรือทำงานให้ดีขึ้น",
+      "description_en": "Learn new information and apply it.",
+      "group": 0
+    },
+    {
+      "id": "Active_Listening",
+      "th": "การฟังและทำความเข้าใจ",
+      "en": "Active Listening",
+      "description_th": "ตั้งใจฟัง จับประเด็น และถามเพิ่มเติมเพื่อเข้าใจสิ่งที่อีกฝ่ายต้องการสื่อ",
+      "description_en": "Listen attentively and understand what others communicate.",
+      "group": 1
+    },
+    {
+      "id": "Complex_Problem_Solving",
+      "th": "การแก้ปัญหาที่ซับซ้อน",
+      "en": "Complex Problem Solving",
+      "description_th": "มองปัญหาที่มีหลายปัจจัย เชื่อมโยงข้อมูล และหาวิธีแก้ที่เหมาะกับสถานการณ์",
+      "description_en": "Analyze complex problems and develop possible solutions.",
+      "group": 2
+    },
+    {
+      "id": "Coordination",
+      "th": "การทำงานร่วมกับผู้อื่น",
+      "en": "Coordination",
+      "description_th": "ปรับวิธีทำงานของตัวเองให้สอดคล้องกับทีม เพื่อให้งานเดินหน้าไปด้วยกัน",
+      "description_en": "Adjust your actions to coordinate with others.",
+      "group": 1
+    },
+    {
+      "id": "Critical_Thinking",
+      "th": "การคิดวิเคราะห์อย่างมีเหตุผล",
+      "en": "Critical Thinking",
+      "description_th": "ใช้เหตุผลวิเคราะห์ข้อมูล เปรียบเทียบทางเลือก และพิจารณาข้อดีข้อเสียก่อนตัดสินใจ",
+      "description_en": "Use reasoning to evaluate strengths, weaknesses and alternatives.",
+      "group": 0
+    },
+    {
+      "id": "Equipment_Maintenance",
+      "th": "การดูแลและบำรุงรักษาอุปกรณ์",
+      "en": "Equipment Maintenance",
+      "description_th": "ตรวจเช็กอุปกรณ์เป็นประจำ รู้ว่าเมื่อไรควรดูแลหรือซ่อม เพื่อให้พร้อมใช้งาน",
+      "description_en": "Maintain equipment and plan routine maintenance.",
+      "group": 4
+    },
+    {
+      "id": "Equipment_Selection",
+      "th": "การเลือกเครื่องมือและอุปกรณ์",
+      "en": "Equipment Selection",
+      "description_th": "เลือกเครื่องมือหรืออุปกรณ์ให้เหมาะกับงานและวิธีใช้งาน",
+      "description_en": "Choose equipment appropriate to a task.",
+      "group": 4
+    },
+    {
+      "id": "Installation",
+      "th": "การติดตั้งอุปกรณ์และระบบ",
+      "en": "Installation",
+      "description_th": "ติดตั้งเครื่องมือ อุปกรณ์ หรือโปรแกรมตามข้อกำหนดให้พร้อมใช้งาน",
+      "description_en": "Install equipment according to specifications.",
+      "group": 4
+    },
+    {
+      "id": "Instructing",
+      "th": "การสอนและอธิบายให้ผู้อื่นเข้าใจ",
+      "en": "Instructing",
+      "description_th": "อธิบายเรื่องหรือวิธีทำงานเป็นขั้นตอน พร้อมช่วยให้ผู้อื่นเรียนรู้และทำได้ด้วยตัวเอง",
+      "description_en": "Explain and teach others how to do things.",
+      "group": 1
+    },
+    {
+      "id": "Judgment_and_Decision_Making",
+      "th": "การพิจารณาและตัดสินใจ",
+      "en": "Judgment and Decision Making",
+      "description_th": "ชั่งน้ำหนักประโยชน์ ต้นทุน และผลที่อาจตามมา ก่อนเลือกทางที่เหมาะสม",
+      "description_en": "Compare costs, benefits and consequences before deciding.",
+      "group": 2
+    },
+    {
+      "id": "Learning_Strategies",
+      "th": "การเลือกวิธีเรียนรู้",
+      "en": "Learning Strategies",
+      "description_th": "เลือกวิธีเรียนหรือฝึกที่เหมาะกับเนื้อหาและผู้เรียน แล้วปรับวิธีเมื่อยังไม่เข้าใจ",
+      "description_en": "Choose effective learning and practice methods.",
+      "group": 0
+    },
+    {
+      "id": "Management_of_Financial_Resources",
+      "th": "การบริหารงบประมาณและการเงิน",
+      "en": "Management of Financial Resources",
+      "description_th": "วางแผนใช้เงินให้เหมาะกับงาน ติดตามรายจ่าย และตรวจสอบว่าใช้เงินคุ้มค่าหรือไม่",
+      "description_en": "Plan and track the use of financial resources.",
+      "group": 3
+    },
+    {
+      "id": "Management_of_Material_Resources",
+      "th": "การบริหารวัสดุและทรัพยากร",
+      "en": "Management of Material Resources",
+      "description_th": "จัดหาและจัดสรรวัสดุ อุปกรณ์ และพื้นที่ให้เพียงพอและเหมาะกับการใช้งาน",
+      "description_en": "Manage materials and other physical resources.",
+      "group": 3
+    },
+    {
+      "id": "Management_of_Personnel_Resources",
+      "th": "การบริหารและพัฒนาทีม",
+      "en": "Management of Personnel Resources",
+      "description_th": "มอบหมายงานให้เหมาะกับแต่ละคน ช่วยพัฒนาความสามารถ และสร้างแรงจูงใจในการทำงาน",
+      "description_en": "Coordinate and develop people to support their work.",
+      "group": 3
+    },
+    {
+      "id": "Mathematics",
+      "th": "การใช้คณิตศาสตร์แก้ปัญหา",
+      "en": "Mathematics",
+      "description_th": "ใช้การคำนวณและแนวคิดทางคณิตศาสตร์ เพื่อหาคำตอบหรือแก้ปัญหาในการเรียนและงาน",
+      "description_en": "Apply mathematics to solve problems.",
+      "group": 0
+    },
+    {
+      "id": "Monitoring",
+      "th": "การติดตามและปรับปรุงผลงาน",
+      "en": "Monitoring",
+      "description_th": "ตรวจดูผลงานของตัวเอง ทีม หรือองค์กร แล้วหาจุดที่ควรปรับปรุง",
+      "description_en": "Review performance to identify improvements.",
+      "group": 0
+    },
+    {
+      "id": "Negotiation",
+      "th": "การเจรจาเพื่อหาข้อตกลง",
+      "en": "Negotiation",
+      "description_th": "พูดคุยกับคนที่มีความต้องการต่างกัน เพื่อหาข้อตกลงที่ทุกฝ่ายยอมรับได้",
+      "description_en": "Find agreements between different parties.",
+      "group": 1
+    },
+    {
+      "id": "Operation_and_Control",
+      "th": "การควบคุมเครื่องมือและระบบ",
+      "en": "Operation and Control",
+      "description_th": "ควบคุมเครื่องจักร อุปกรณ์ หรือระบบให้ทำงานได้ตามที่ต้องการ",
+      "description_en": "Control equipment or system operations.",
+      "group": 4
+    },
+    {
+      "id": "Operations_Analysis",
+      "th": "การวิเคราะห์ความต้องการของงาน",
+      "en": "Operations Analysis",
+      "description_th": "ทำความเข้าใจความต้องการและข้อจำกัด เพื่อกำหนดวิธีทำงานหรือออกแบบสิ่งที่ตอบโจทย์",
+      "description_en": "Analyze requirements to design ways of working.",
+      "group": 2
+    },
+    {
+      "id": "Operations_Monitoring",
+      "th": "การตรวจดูการทำงานของระบบ",
+      "en": "Operations Monitoring",
+      "description_th": "อ่านมาตรวัด หน้าจอ หรือสัญญาณต่าง ๆ เพื่อดูว่าเครื่องมือหรือระบบทำงานเป็นปกติหรือไม่",
+      "description_en": "Read indicators to monitor system operations.",
+      "group": 4
+    },
+    {
+      "id": "Persuasion",
+      "th": "การสื่อสารเพื่อโน้มน้าว",
+      "en": "Persuasion",
+      "description_th": "อธิบายเหตุผลและนำเสนอแนวคิดให้ผู้อื่นเห็นคุณค่าและพิจารณาปรับมุมมองหรือการกระทำ",
+      "description_en": "Communicate ideas to influence consideration or decisions.",
+      "group": 1
+    },
+    {
+      "id": "Programming",
+      "th": "การเขียนโปรแกรม",
+      "en": "Programming",
+      "description_th": "เขียนคำสั่งคอมพิวเตอร์เพื่อสร้างโปรแกรมหรือช่วยให้งานทำได้ตามต้องการ",
+      "description_en": "Write computer programs to perform tasks.",
+      "group": 4
+    },
+    {
+      "id": "Quality_Control_Analysis",
+      "th": "การตรวจสอบและประเมินคุณภาพ",
+      "en": "Quality Control Analysis",
+      "description_th": "ทดสอบสินค้า บริการ หรือกระบวนการ แล้วใช้ผลตรวจสอบประเมินคุณภาพ",
+      "description_en": "Test and inspect quality.",
+      "group": 4
+    },
+    {
+      "id": "Reading_Comprehension",
+      "th": "การอ่านและจับใจความ",
+      "en": "Reading Comprehension",
+      "description_th": "อ่านเอกสารหรือข้อความเกี่ยวกับงาน แล้วเข้าใจประเด็นสำคัญและรายละเอียดที่จำเป็น",
+      "description_en": "Understand the main ideas in written documents.",
+      "group": 0
+    },
+    {
+      "id": "Repairing",
+      "th": "การซ่อมอุปกรณ์",
+      "en": "Repairing",
+      "description_th": "ซ่อมเครื่องมือหรืออุปกรณ์ที่เสีย โดยเลือกเครื่องมือและวิธีซ่อมให้เหมาะสม",
+      "description_en": "Repair equipment using appropriate methods.",
+      "group": 4
+    },
+    {
+      "id": "Science",
+      "th": "การใช้หลักวิทยาศาสตร์",
+      "en": "Science",
+      "description_th": "ใช้หลักการและวิธีทางวิทยาศาสตร์ เช่น การสังเกตและทดลอง เพื่อทำความเข้าใจและแก้ปัญหา",
+      "description_en": "Apply scientific principles to solve problems.",
+      "group": 0
+    },
+    {
+      "id": "Service_Orientation",
+      "th": "การช่วยเหลือและให้บริการ",
+      "en": "Service Orientation",
+      "description_th": "สังเกตความต้องการของผู้อื่น และหาวิธีช่วยเหลือหรือให้บริการที่ตอบโจทย์",
+      "description_en": "Find ways to help other people.",
+      "group": 1
+    },
+    {
+      "id": "Social_Perceptiveness",
+      "th": "การเข้าใจความรู้สึกและปฏิกิริยาของผู้อื่น",
+      "en": "Social Perceptiveness",
+      "description_th": "สังเกตท่าทีและปฏิกิริยาของคนรอบตัว แล้วเข้าใจว่าอะไรทำให้เขารู้สึกหรือแสดงออกเช่นนั้น",
+      "description_en": "Recognize and understand other people’s reactions.",
+      "group": 1
+    },
+    {
+      "id": "Speaking",
+      "th": "การพูดสื่อสารให้ชัดเจน",
+      "en": "Speaking",
+      "description_th": "พูดอธิบายข้อมูลหรือความคิดให้ผู้อื่นเข้าใจ โดยเลือกคำและวิธีพูดให้เหมาะกับผู้ฟัง",
+      "description_en": "Communicate information clearly through speech.",
+      "group": 1
+    },
+    {
+      "id": "Systems_Analysis",
+      "th": "การวิเคราะห์การทำงานของระบบ",
+      "en": "Systems Analysis",
+      "description_th": "ทำความเข้าใจว่าส่วนต่าง ๆ ของระบบเชื่อมโยงกันอย่างไร และการเปลี่ยนส่วนหนึ่งกระทบส่วนอื่นอย่างไร",
+      "description_en": "Analyze system components and their interactions.",
+      "group": 2
+    },
+    {
+      "id": "Systems_Evaluation",
+      "th": "การประเมินและปรับปรุงระบบ",
+      "en": "Systems Evaluation",
+      "description_th": "เลือกเกณฑ์วัดผลของระบบ แล้วใช้ผลประเมินหาแนวทางปรับปรุงให้บรรลุเป้าหมาย",
+      "description_en": "Evaluate systems to improve their performance.",
+      "group": 2
+    },
+    {
+      "id": "Technology_Design",
+      "th": "การออกแบบเทคโนโลยีให้ตอบโจทย์",
+      "en": "Technology Design",
+      "description_th": "สร้างหรือปรับเทคโนโลยีและอุปกรณ์ให้ตรงกับความต้องการของผู้ใช้",
+      "description_en": "Design technology to meet user needs.",
+      "group": 4
+    },
+    {
+      "id": "Time_Management",
+      "th": "การจัดการเวลา",
+      "en": "Time Management",
+      "description_th": "วางแผนและจัดลำดับงาน เพื่อใช้เวลาของตัวเองและทีมได้เหมาะสม",
+      "description_en": "Prioritize work and manage time.",
+      "group": 3
+    },
+    {
+      "id": "Troubleshooting",
+      "th": "การหาสาเหตุและแก้ปัญหาขัดข้อง",
+      "en": "Troubleshooting",
+      "description_th": "ตรวจหาว่าอะไรทำให้เครื่องมือหรือระบบทำงานผิดปกติ แล้วเลือกวิธีแก้ไข",
+      "description_en": "Identify causes and solutions for operational problems.",
+      "group": 4
+    },
+    {
+      "id": "Writing",
+      "th": "การเขียนสื่อสาร",
+      "en": "Writing",
+      "description_th": "เขียนข้อมูลหรือความคิดให้ชัดเจน โดยปรับภาษาและรูปแบบให้เหมาะกับผู้อ่าน",
+      "description_en": "Communicate clearly in writing for the intended audience.",
+      "group": 1
+    }
+  ],
+  "protected_sha256": {
+    "data/career_training_data_v2_70_features.csv": "7777b391793189c942f4020cc53564e9062b700b519f42850b7851c775101f88",
+    "models/model.pkl": "fdd0a50265bc776045d1ae08025667f45a864757b597104b35530f904ba6333e",
+    "models/model_metadata.json": "8a0dbe632f1b6a8f5aa39b6403524839506a5c0f06b26d6a9faa1d642bfa8d3d",
+    "train_model.py": "aa03564b32776e5f0a72fd61fa68326af98b433598018744abb6770245c9ab72",
+    "app/main.py": "d0cddfb35ee448376e981a7b831e45fe2e1fff37eec35847539efc78904582d7",
+    "app/services/data.py": "bce9cf74e42b7a2b465b97a8e3edaf796c95b33294b249df4e28e978d1cf4fbd",
+    "app/services/career_matcher.py": "1c4c042922c0d022b9c9e6a63099be60735a2f3e213f54d0d0947bb69b5752ac",
+    "app/services/skill_gap.py": "f639139d84b1291928efe348de21d00258e2d29445949944666799e8e5576132",
+    "data/career_titles_th.txt": "9382434bfc0f93e59cb10e08562f0e824c251bb04aa1107f65786ee734cfec85"
+  }
+}

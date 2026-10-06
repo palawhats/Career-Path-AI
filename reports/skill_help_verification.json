@@ -1,0 +1,227 @@
+{
+  "content_count": 35,
+  "all_4_content_fields_nonblank": true,
+  "protected_files_identical": {
+    "data/career_training_data_v2_70_features.csv": true,
+    "models/model.pkl": true,
+    "models/model_metadata.json": true,
+    "train_model.py": true,
+    "app/main.py": true,
+    "app/services/data.py": true,
+    "app/services/career_matcher.py": true,
+    "app/services/skill_gap.py": true,
+    "data/career_titles_th.txt": true
+  },
+  "current_names_ids_order_groups_unchanged": true,
+  "regression": {
+    "ones": {
+      "exact_top10_order": true,
+      "max_distance_change": 0.0,
+      "max_score_change": 0.0,
+      "top1": {
+        "onet_code": "45-2041.00",
+        "career_en": "Graders and Sorters, Agricultural Products",
+        "career_th": "พนักงานคัดเกรดและคัดแยกผลิตผลทางการเกษตร",
+        "rank": 1,
+        "distance": 1.0908104083381198,
+        "match_score": 81.56193884581775,
+        "matching_skills": [
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Equipment_Selection",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Operations_Analysis",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Programming",
+            "difference": 0.0,
+            "importance": 1.0
+          }
+        ]
+      }
+    },
+    "threes": {
+      "exact_top10_order": true,
+      "max_distance_change": 0.0,
+      "max_score_change": 0.0,
+      "top1": {
+        "onet_code": "17-2112.03",
+        "career_en": "Manufacturing Engineers",
+        "career_th": "วิศวกรการผลิต",
+        "rank": 1,
+        "distance": 0.538904785047355,
+        "match_score": 90.89084656047342,
+        "matching_skills": [
+          {
+            "skill": "Management_of_Material_Resources",
+            "difference": 0.0,
+            "importance": 3.0
+          },
+          {
+            "skill": "Social_Perceptiveness",
+            "difference": 0.0,
+            "importance": 3.0
+          },
+          {
+            "skill": "Troubleshooting",
+            "difference": 0.017142857142857126,
+            "importance": 3.5
+          },
+          {
+            "skill": "Persuasion",
+            "difference": 0.017142857142857126,
+            "importance": 3.12
+          },
+          {
+            "skill": "Coordination",
+            "difference": 0.017142857142857126,
+            "importance": 3.0
+          }
+        ]
+      }
+    },
+    "fives": {
+      "exact_top10_order": true,
+      "max_distance_change": 0.0,
+      "max_score_change": 0.0,
+      "top1": {
+        "onet_code": "17-2112.03",
+        "career_en": "Manufacturing Engineers",
+        "career_th": "วิศวกรการผลิต",
+        "rank": 1,
+        "distance": 2.7269273281591535,
+        "match_score": 53.906515325416514,
+        "matching_skills": [
+          {
+            "skill": "Reading_Comprehension",
+            "difference": 0.3214285714285714,
+            "importance": 4.0
+          },
+          {
+            "skill": "Judgment_and_Decision_Making",
+            "difference": 0.33999999999999997,
+            "importance": 3.88
+          },
+          {
+            "skill": "Monitoring",
+            "difference": 0.33999999999999997,
+            "importance": 3.88
+          },
+          {
+            "skill": "Systems_Analysis",
+            "difference": 0.33999999999999997,
+            "importance": 3.75
+          },
+          {
+            "skill": "Mathematics",
+            "difference": 0.3571428571428571,
+            "importance": 4.0
+          }
+        ]
+      }
+    },
+    "cycle": {
+      "exact_top10_order": true,
+      "max_distance_change": 0.0,
+      "max_score_change": 0.0,
+      "top1": {
+        "onet_code": "47-2111.00",
+        "career_en": "Electricians",
+        "career_th": "ช่างไฟฟ้า",
+        "rank": 1,
+        "distance": 2.0147304473577115,
+        "match_score": 65.94483980569086,
+        "matching_skills": [
+          {
+            "skill": "Installation",
+            "difference": 0.0357142857142857,
+            "importance": 3.25
+          },
+          {
+            "skill": "Technology_Design",
+            "difference": 0.0357142857142857,
+            "importance": 2.12
+          },
+          {
+            "skill": "Quality_Control_Analysis",
+            "difference": 0.05428571428571427,
+            "importance": 3.25
+          },
+          {
+            "skill": "Time_Management",
+            "difference": 0.05428571428571427,
+            "importance": 3.0
+          },
+          {
+            "skill": "Social_Perceptiveness",
+            "difference": 0.05428571428571427,
+            "importance": 2.88
+          }
+        ]
+      }
+    },
+    "doctor": {
+      "exact_top10_order": true,
+      "max_distance_change": 0.0,
+      "max_score_change": 0.0,
+      "top1": {
+        "onet_code": "29-1215.00",
+        "career_en": "Family Medicine Physicians",
+        "career_th": "แพทย์เวชศาสตร์ครอบครัว",
+        "rank": 1,
+        "distance": 0.40977594674481954,
+        "match_score": 93.0735223024642,
+        "matching_skills": [
+          {
+            "skill": "Management_of_Personnel_Resources",
+            "difference": 0.0,
+            "importance": 3.0
+          },
+          {
+            "skill": "Equipment_Maintenance",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Installation",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Repairing",
+            "difference": 0.0,
+            "importance": 1.0
+          },
+          {
+            "skill": "Persuasion",
+            "difference": 0.017142857142857126,
+            "importance": 3.0
+          }
+        ]
+      }
+    }
+  },
+  "python_tests": 117,
+  "javascript_tests": 41,
+  "total_tests": 158,
+  "browser_visual_checks": "Pending; saved Browser permission blocks local access.",
+  "mobile_widths_requested": [
+    375,
+    768,
+    1440
+  ]
+}

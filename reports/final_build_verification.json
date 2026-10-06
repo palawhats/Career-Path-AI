@@ -1,0 +1,34 @@
+{
+  "clean_venv": true,
+  "two_builds_identical_sha256": [
+    "fdd0a50265bc776045d1ae08025667f45a864757b597104b35530f904ba6333e",
+    "fdd0a50265bc776045d1ae08025667f45a864757b597104b35530f904ba6333e"
+  ],
+  "same_canonical_features": true,
+  "same_normalization": true,
+  "same_910_occupations": true,
+  "same_raw_levels_importance_and_fitted_index": true,
+  "rebuilt_regression": {
+    "ones": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0
+    },
+    "threes": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0
+    },
+    "fives": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0
+    },
+    "cycle": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0
+    },
+    "doctor": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0
+    }
+  },
+  "platform_note": "Executed in clean Python 3.12.14 Windows environment. Linux wheels resolved separately; no Linux/Render execution is claimed."
+}

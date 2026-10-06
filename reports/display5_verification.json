@@ -1,0 +1,50 @@
+{
+  "health": {
+    "status": "ok",
+    "occupations": 910,
+    "skills": 35,
+    "metric": "euclidean",
+    "version": "bilingual-v3"
+  },
+  "protected_hashes_unchanged": [
+    "data/career_training_data_v2_70_features.csv",
+    "models/model.pkl",
+    "models/model_metadata.json",
+    "train_model.py",
+    "app/main.py",
+    "app/services/data.py",
+    "app/services/career_matcher.py",
+    "app/services/skill_gap.py",
+    "app/static/skills.json",
+    "render.yaml"
+  ],
+  "fixed_vectors": {
+    "ones": {
+      "exact_same_ranking_scores_distances_and_gaps": true
+    },
+    "threes": {
+      "exact_same_ranking_scores_distances_and_gaps": true
+    },
+    "fives": {
+      "exact_same_ranking_scores_distances_and_gaps": true
+    },
+    "cycle": {
+      "exact_same_ranking_scores_distances_and_gaps": true
+    },
+    "doctor": {
+      "exact_same_ranking_scores_distances_and_gaps": true
+    },
+    "new_prompt_doctor": {
+      "exact_same_ranking_scores_distances_and_gaps": true
+    }
+  },
+  "python_passed": 152,
+  "javascript_passed": 54,
+  "display_mapping": {
+    "0": "1.00",
+    "2.50": "2.43",
+    "3.75": "3.14",
+    "7": "5.00"
+  },
+  "comparison_bars_unchanged": true
+}

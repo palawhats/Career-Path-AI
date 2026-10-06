@@ -1,0 +1,308 @@
+{
+  "shape": [
+    910,
+    72
+  ],
+  "skills": [
+    "Active_Learning",
+    "Active_Listening",
+    "Complex_Problem_Solving",
+    "Coordination",
+    "Critical_Thinking",
+    "Equipment_Maintenance",
+    "Equipment_Selection",
+    "Installation",
+    "Instructing",
+    "Judgment_and_Decision_Making",
+    "Learning_Strategies",
+    "Management_of_Financial_Resources",
+    "Management_of_Material_Resources",
+    "Management_of_Personnel_Resources",
+    "Mathematics",
+    "Monitoring",
+    "Negotiation",
+    "Operation_and_Control",
+    "Operations_Analysis",
+    "Operations_Monitoring",
+    "Persuasion",
+    "Programming",
+    "Quality_Control_Analysis",
+    "Reading_Comprehension",
+    "Repairing",
+    "Science",
+    "Service_Orientation",
+    "Social_Perceptiveness",
+    "Speaking",
+    "Systems_Analysis",
+    "Systems_Evaluation",
+    "Technology_Design",
+    "Time_Management",
+    "Troubleshooting",
+    "Writing"
+  ],
+  "columns": [
+    "ONET_SOC_Code",
+    "Career",
+    "Active_Learning_Level",
+    "Active_Learning_Importance",
+    "Active_Listening_Level",
+    "Active_Listening_Importance",
+    "Complex_Problem_Solving_Level",
+    "Complex_Problem_Solving_Importance",
+    "Coordination_Level",
+    "Coordination_Importance",
+    "Critical_Thinking_Level",
+    "Critical_Thinking_Importance",
+    "Equipment_Maintenance_Level",
+    "Equipment_Maintenance_Importance",
+    "Equipment_Selection_Level",
+    "Equipment_Selection_Importance",
+    "Installation_Level",
+    "Installation_Importance",
+    "Instructing_Level",
+    "Instructing_Importance",
+    "Judgment_and_Decision_Making_Level",
+    "Judgment_and_Decision_Making_Importance",
+    "Learning_Strategies_Level",
+    "Learning_Strategies_Importance",
+    "Management_of_Financial_Resources_Level",
+    "Management_of_Financial_Resources_Importance",
+    "Management_of_Material_Resources_Level",
+    "Management_of_Material_Resources_Importance",
+    "Management_of_Personnel_Resources_Level",
+    "Management_of_Personnel_Resources_Importance",
+    "Mathematics_Level",
+    "Mathematics_Importance",
+    "Monitoring_Level",
+    "Monitoring_Importance",
+    "Negotiation_Level",
+    "Negotiation_Importance",
+    "Operation_and_Control_Level",
+    "Operation_and_Control_Importance",
+    "Operations_Analysis_Level",
+    "Operations_Analysis_Importance",
+    "Operations_Monitoring_Level",
+    "Operations_Monitoring_Importance",
+    "Persuasion_Level",
+    "Persuasion_Importance",
+    "Programming_Level",
+    "Programming_Importance",
+    "Quality_Control_Analysis_Level",
+    "Quality_Control_Analysis_Importance",
+    "Reading_Comprehension_Level",
+    "Reading_Comprehension_Importance",
+    "Repairing_Level",
+    "Repairing_Importance",
+    "Science_Level",
+    "Science_Importance",
+    "Service_Orientation_Level",
+    "Service_Orientation_Importance",
+    "Social_Perceptiveness_Level",
+    "Social_Perceptiveness_Importance",
+    "Speaking_Level",
+    "Speaking_Importance",
+    "Systems_Analysis_Level",
+    "Systems_Analysis_Importance",
+    "Systems_Evaluation_Level",
+    "Systems_Evaluation_Importance",
+    "Technology_Design_Level",
+    "Technology_Design_Importance",
+    "Time_Management_Level",
+    "Time_Management_Importance",
+    "Troubleshooting_Level",
+    "Troubleshooting_Importance",
+    "Writing_Level",
+    "Writing_Importance"
+  ],
+  "level_range": [
+    0.0,
+    6.0
+  ],
+  "importance_range": [
+    1.0,
+    5.0
+  ],
+  "missing": 0,
+  "duplicate_codes": 0,
+  "duplicate_titles": 0,
+  "sha256": "7777b391793189c942f4020cc53564e9062b700b519f42850b7851c775101f88",
+  "examples": [
+    "Chief Executives",
+    "Chief Sustainability Officers",
+    "General and Operations Managers",
+    "Advertising and Promotions Managers",
+    "Marketing Managers",
+    "Sales Managers",
+    "Public Relations Managers",
+    "Fundraising Managers"
+  ]
+}
+# Retrieval evaluation
+
+Actual execution; synthetic / controlled perturbation evaluation. Not student career outcome accuracy.
+
+   metric  self_top1  self_top3  self_top10  perturb_top1  perturb_top3  perturb_top10
+euclidean        1.0        1.0         1.0      0.987912      1.000000            1.0
+manhattan        1.0        1.0         1.0      0.981319      1.000000            1.0
+   cosine        1.0        1.0         1.0      0.982418      0.997802            1.0
+
+Seed 2026, independent Gaussian noise sigma 0.05 per normalized dimension, clipped to [0,1]. All 910 occupations remain in the reference index. Top-K counts retrieval of the originating occupation code. Self-retrieval is a sanity check. Tied profiles can obscure identity. Continuous noise does not emulate discrete student ratings. No student ground truth, holdout classification accuracy or career success prediction is claimed.
+
+Euclidean is used by specification because it preserves absolute level differences. The alternative metrics are diagnostics, not a claim of superiority. Normalization uses Level / 7 based on the documented O*NET scale, replacing the old observed-maximum /6 calibration. Prior evaluation numbers therefore do not describe this model.
+
+
+
+SECOND DETERMINISTIC BUILD
+
+{
+  "shape": [
+    910,
+    72
+  ],
+  "skills": [
+    "Active_Learning",
+    "Active_Listening",
+    "Complex_Problem_Solving",
+    "Coordination",
+    "Critical_Thinking",
+    "Equipment_Maintenance",
+    "Equipment_Selection",
+    "Installation",
+    "Instructing",
+    "Judgment_and_Decision_Making",
+    "Learning_Strategies",
+    "Management_of_Financial_Resources",
+    "Management_of_Material_Resources",
+    "Management_of_Personnel_Resources",
+    "Mathematics",
+    "Monitoring",
+    "Negotiation",
+    "Operation_and_Control",
+    "Operations_Analysis",
+    "Operations_Monitoring",
+    "Persuasion",
+    "Programming",
+    "Quality_Control_Analysis",
+    "Reading_Comprehension",
+    "Repairing",
+    "Science",
+    "Service_Orientation",
+    "Social_Perceptiveness",
+    "Speaking",
+    "Systems_Analysis",
+    "Systems_Evaluation",
+    "Technology_Design",
+    "Time_Management",
+    "Troubleshooting",
+    "Writing"
+  ],
+  "columns": [
+    "ONET_SOC_Code",
+    "Career",
+    "Active_Learning_Level",
+    "Active_Learning_Importance",
+    "Active_Listening_Level",
+    "Active_Listening_Importance",
+    "Complex_Problem_Solving_Level",
+    "Complex_Problem_Solving_Importance",
+    "Coordination_Level",
+    "Coordination_Importance",
+    "Critical_Thinking_Level",
+    "Critical_Thinking_Importance",
+    "Equipment_Maintenance_Level",
+    "Equipment_Maintenance_Importance",
+    "Equipment_Selection_Level",
+    "Equipment_Selection_Importance",
+    "Installation_Level",
+    "Installation_Importance",
+    "Instructing_Level",
+    "Instructing_Importance",
+    "Judgment_and_Decision_Making_Level",
+    "Judgment_and_Decision_Making_Importance",
+    "Learning_Strategies_Level",
+    "Learning_Strategies_Importance",
+    "Management_of_Financial_Resources_Level",
+    "Management_of_Financial_Resources_Importance",
+    "Management_of_Material_Resources_Level",
+    "Management_of_Material_Resources_Importance",
+    "Management_of_Personnel_Resources_Level",
+    "Management_of_Personnel_Resources_Importance",
+    "Mathematics_Level",
+    "Mathematics_Importance",
+    "Monitoring_Level",
+    "Monitoring_Importance",
+    "Negotiation_Level",
+    "Negotiation_Importance",
+    "Operation_and_Control_Level",
+    "Operation_and_Control_Importance",
+    "Operations_Analysis_Level",
+    "Operations_Analysis_Importance",
+    "Operations_Monitoring_Level",
+    "Operations_Monitoring_Importance",
+    "Persuasion_Level",
+    "Persuasion_Importance",
+    "Programming_Level",
+    "Programming_Importance",
+    "Quality_Control_Analysis_Level",
+    "Quality_Control_Analysis_Importance",
+    "Reading_Comprehension_Level",
+    "Reading_Comprehension_Importance",
+    "Repairing_Level",
+    "Repairing_Importance",
+    "Science_Level",
+    "Science_Importance",
+    "Service_Orientation_Level",
+    "Service_Orientation_Importance",
+    "Social_Perceptiveness_Level",
+    "Social_Perceptiveness_Importance",
+    "Speaking_Level",
+    "Speaking_Importance",
+    "Systems_Analysis_Level",
+    "Systems_Analysis_Importance",
+    "Systems_Evaluation_Level",
+    "Systems_Evaluation_Importance",
+    "Technology_Design_Level",
+    "Technology_Design_Importance",
+    "Time_Management_Level",
+    "Time_Management_Importance",
+    "Troubleshooting_Level",
+    "Troubleshooting_Importance",
+    "Writing_Level",
+    "Writing_Importance"
+  ],
+  "level_range": [
+    0.0,
+    6.0
+  ],
+  "importance_range": [
+    1.0,
+    5.0
+  ],
+  "missing": 0,
+  "duplicate_codes": 0,
+  "duplicate_titles": 0,
+  "sha256": "7777b391793189c942f4020cc53564e9062b700b519f42850b7851c775101f88",
+  "examples": [
+    "Chief Executives",
+    "Chief Sustainability Officers",
+    "General and Operations Managers",
+    "Advertising and Promotions Managers",
+    "Marketing Managers",
+    "Sales Managers",
+    "Public Relations Managers",
+    "Fundraising Managers"
+  ]
+}
+# Retrieval evaluation
+
+Actual execution; synthetic / controlled perturbation evaluation. Not student career outcome accuracy.
+
+   metric  self_top1  self_top3  self_top10  perturb_top1  perturb_top3  perturb_top10
+euclidean        1.0        1.0         1.0      0.987912      1.000000            1.0
+manhattan        1.0        1.0         1.0      0.981319      1.000000            1.0
+   cosine        1.0        1.0         1.0      0.982418      0.997802            1.0
+
+Seed 2026, independent Gaussian noise sigma 0.05 per normalized dimension, clipped to [0,1]. All 910 occupations remain in the reference index. Top-K counts retrieval of the originating occupation code. Self-retrieval is a sanity check. Tied profiles can obscure identity. Continuous noise does not emulate discrete student ratings. No student ground truth, holdout classification accuracy or career success prediction is claimed.
+
+Euclidean is used by specification because it preserves absolute level differences. The alternative metrics are diagnostics, not a claim of superiority. Normalization uses Level / 7 based on the documented O*NET scale, replacing the old observed-maximum /6 calibration. Prior evaluation numbers therefore do not describe this model.
+

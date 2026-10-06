@@ -1,0 +1,62 @@
+
+> test
+> node --test tests/*.test.cjs
+
+✔ both catalogs have the same nonempty keys (3.1734ms)
+✔ default Thai, switch English and persist language (1.8507ms)
+✔ all UI literal translation keys exist in each language (1.986ms)
+✔ Thai default and English language switch translate navigation and landing (134.4635ms)
+✔ assessment preserves chosen value across language switch (97.2376ms)
+✔ all 35 questions render once across the five categories and are required (82.1682ms)
+✔ ten real result fixtures render, score order remains monotonic and code links work (35.0493ms)
+✔ direct career without answers hides personalization but displays important and all skills (35.3839ms)
+✔ personalized career has real gaps and translates development metrics (76.7319ms)
+✔ clearing answers resets progress and does not write assessment to localStorage (73.1847ms)
+✔ full assessment submits exactly the 35 original identifiers and reaches ten results (281.6468ms)
+✔ Thai career title safely falls back to original English when translation is absent (65.5492ms)
+✔ paste rejects 34 values atomically (84.8787ms)
+✔ paste rejects 36 values atomically (81.8516ms)
+✔ paste rejects 0 atomically (76.3505ms)
+✔ paste rejects 6 atomically (91.0354ms)
+✔ paste rejects 2.5 atomically (83.1932ms)
+✔ paste rejects text atomically (88.3241ms)
+✔ paste rejects <script>alert(1)</script> atomically (72.8712ms)
+✔ paste rejects 3x atomically (69.0301ms)
+✔ paste rejects NaN atomically (66.1847ms)
+✔ paste accepts commas and updates all canonical skills and progress (131.6848ms)
+✔ paste accepts spaces and updates all canonical skills and progress (123.7912ms)
+✔ paste accepts newlines and updates all canonical skills and progress (104.9676ms)
+✔ paste accepts mixed and updates all canonical skills and progress (110.8497ms)
+✔ pasted values survive language switching, submit through normal flow and clear (288.3073ms)
+✔ cancel and Escape leave assessment untouched and modal shows canonical order (48.3191ms)
+✔ Thai validation errors are translated (61.5099ms)
+✔ student landing has three steps and no technical hero text (48.1078ms)
+✔ rating choices show all five labels and original values with secondary English skill names (45.1238ms)
+✔ result cards show three original matching skills without technical subtitle (121.8474ms)
+✔ career details show first five existing important skills and collapsed full35 after development (35.7114ms)
+✔ skip link focuses content without changing route or assessment state (43.1173ms)
+✔ doctor demo uses canonical pasted values and normal submit/detail flow in both languages (234.0612ms)
+✔ refresh restores saved assessment and language on results and direct career routes (73.035ms)
+✔ all canonical skill content has nonblank Thai/English explanations and examples (0.7347ms)
+✔ all35 accessible info buttons open and close in-flow explanations without changing ratings (107.3547ms)
+✔ language switching translates open help and preserves answer, progress and help state (111.8433ms)
+✔ opening a second skill closes the first and category navigation retains selected help (53.2054ms)
+✔ rating help explains all five anchors without changing numeric choices (47.4846ms)
+✔ pasting values preserves open help and keeps normal submit behavior (133.0972ms)
+✔ exact locked questions are always visible for all35 skills in Thai and English (210.8268ms)
+✔ new rating anchors and no-experience instruction are consistent for all categories (145.8368ms)
+✔ behavioral wording changes only presentation through paste, language switch and submission (153.6889ms)
+✔ presentation labels and calculation details preserve raw values in th (95.2312ms)
+✔ presentation labels and calculation details preserve raw values in en (72.1133ms)
+✔ metric bands classify exact boundaries without mutating values (33.1468ms)
+✔ example gap communicates percentage points and both source scales (39.4607ms)
+✔ career exploration positioning and limitations are complete in th (76.0286ms)
+✔ career exploration positioning and limitations are complete in en (67.8134ms)
+ℹ tests 50
+ℹ suites 0
+ℹ pass 50
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5140.9919

@@ -1,0 +1,15 @@
+[
+  "app/services/roadmap.py",
+  "app/services/enrichment.py",
+  "validate_enrichment.py",
+  "tests/test_v2.py",
+  "data/knowledge.csv",
+  "data/software_skills.csv",
+  "data/task_statements.csv",
+  "reports/v2_verification.json",
+  "reports/v2_implementation_report.md",
+  "reports/v2_examples.json",
+  "reports/enrichment_validation.json",
+  "reports/enrichment_source_inspection.json",
+  "reports/verification.md"
+]

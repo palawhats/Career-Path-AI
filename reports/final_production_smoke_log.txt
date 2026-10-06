@@ -1,0 +1,18 @@
+INFO:     Started server process [18128]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8012 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53418 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53419 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53420 - "GET /assessment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53421 - "GET /results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53422 - "GET /about HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53423 - "GET /career/29-1215.00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53424 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53425 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53426 - "GET /static/i18n.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53427 - "GET /static/skills.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53428 - "POST /api/match-careers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53429 - "POST /api/match-careers HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:53430 - "POST /api/match-careers HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:53431 - "POST /api/match-careers HTTP/1.1" 422 Unprocessable Entity

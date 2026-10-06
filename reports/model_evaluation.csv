@@ -1,0 +1,4 @@
+metric,self_top1,self_top3,self_top10,perturb_top1,perturb_top3,perturb_top10
+euclidean,1.0,1.0,1.0,0.987912087912088,1.0,1.0
+manhattan,1.0,1.0,1.0,0.9813186813186813,1.0,1.0
+cosine,1.0,1.0,1.0,0.9824175824175824,0.9978021978021978,1.0

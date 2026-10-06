@@ -1,0 +1,2175 @@
+{
+  "status": "PASS",
+  "scope": "Automated behavioral-content and pipeline verification; rendered mobile acceptance pending",
+  "skill_count": 35,
+  "thai_questions": 35,
+  "english_questions": 35,
+  "exact_locked_thai_copy": true,
+  "canonical_order_unchanged": true,
+  "protected_files_unchanged": {
+    "data/career_training_data_v2_70_features.csv": true,
+    "models/model.pkl": true,
+    "models/model_metadata.json": true,
+    "train_model.py": true,
+    "app/main.py": true,
+    "app/services/data.py": true,
+    "app/services/career_matcher.py": true,
+    "app/services/skill_gap.py": true,
+    "data/career_titles_th.txt": true
+  },
+  "python_tests": 136,
+  "javascript_tests": 44,
+  "total_tests": 180,
+  "before_after": {
+    "ones": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0,
+      "max_score_difference": 0.0,
+      "same_gap_records": true,
+      "top10": [
+        {
+          "onet_code": "45-2041.00",
+          "career_en": "Graders and Sorters, Agricultural Products",
+          "career_th": "พนักงานคัดเกรดและคัดแยกผลิตผลทางการเกษตร",
+          "rank": 1,
+          "distance": 1.0908104083381198,
+          "match_score": 81.56193884581775,
+          "matching_skills": [
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Programming",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "41-9012.00",
+          "career_en": "Models",
+          "career_th": "นายแบบและนางแบบ",
+          "rank": 2,
+          "distance": 1.111721408355492,
+          "match_score": 81.20847843311154,
+          "matching_skills": [
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Management_of_Financial_Resources",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Management_of_Material_Resources",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "53-7064.00",
+          "career_en": "Packers and Packagers, Hand",
+          "career_th": "พนักงานบรรจุและห่อสินค้าด้วยมือ",
+          "rank": 3,
+          "distance": 1.1570696625880537,
+          "match_score": 80.44195303292835,
+          "matching_skills": [
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Science",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.017142857142857144,
+              "importance": 1.12
+            },
+            {
+              "skill": "Technology_Design",
+              "difference": 0.017142857142857144,
+              "importance": 1.12
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.03571428571428571,
+              "importance": 1.25
+            }
+          ]
+        },
+        {
+          "onet_code": "51-3023.00",
+          "career_en": "Slaughterers and Meat Packers",
+          "career_th": "พนักงานฆ่าสัตว์และบรรจุเนื้อสัตว์",
+          "rank": 4,
+          "distance": 1.1888650049522023,
+          "match_score": 79.90451365533615,
+          "matching_skills": [
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Programming",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Science",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Technology_Design",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.017142857142857144,
+              "importance": 1.12
+            }
+          ]
+        },
+        {
+          "onet_code": "37-3011.00",
+          "career_en": "Landscaping and Groundskeeping Workers",
+          "career_th": "พนักงานจัดสวนและดูแลพื้นที่",
+          "rank": 5,
+          "distance": 1.2275834898245397,
+          "match_score": 79.2500518108062,
+          "matching_skills": [
+            {
+              "skill": "Programming",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.017142857142857144,
+              "importance": 1.12
+            },
+            {
+              "skill": "Science",
+              "difference": 0.03571428571428571,
+              "importance": 1.25
+            },
+            {
+              "skill": "Technology_Design",
+              "difference": 0.03571428571428571,
+              "importance": 1.25
+            },
+            {
+              "skill": "Management_of_Material_Resources",
+              "difference": 0.054285714285714284,
+              "importance": 1.38
+            }
+          ]
+        },
+        {
+          "onet_code": "51-6021.00",
+          "career_en": "Pressers, Textile, Garment, and Related Materials",
+          "career_th": "พนักงานรีดสิ่งทอ เสื้อผ้า และวัสดุที่เกี่ยวข้อง",
+          "rank": 6,
+          "distance": 1.2276541426140961,
+          "match_score": 79.24885756069216,
+          "matching_skills": [
+            {
+              "skill": "Programming",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Science",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.03571428571428571,
+              "importance": 1.25
+            },
+            {
+              "skill": "Instructing",
+              "difference": 0.054285714285714284,
+              "importance": 1.25
+            },
+            {
+              "skill": "Management_of_Financial_Resources",
+              "difference": 0.07142857142857142,
+              "importance": 1.5
+            }
+          ]
+        },
+        {
+          "onet_code": "33-9091.00",
+          "career_en": "Crossing Guards and Flaggers",
+          "career_th": "เจ้าหน้าที่ดูแลทางข้ามและให้สัญญาณจราจร",
+          "rank": 7,
+          "distance": 1.278932909794373,
+          "match_score": 78.38208819549928,
+          "matching_skills": [
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Programming",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "35-9021.00",
+          "career_en": "Dishwashers",
+          "career_th": "พนักงานล้างจาน",
+          "rank": 8,
+          "distance": 1.308976855472726,
+          "match_score": 77.87425282512143,
+          "matching_skills": [
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Programming",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Science",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Technology_Design",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "47-2082.00",
+          "career_en": "Tapers",
+          "career_th": "ช่างปิดเทปและฉาบรอยต่อผนังยิปซัม",
+          "rank": 9,
+          "distance": 1.3130071420605605,
+          "match_score": 77.80612854797175,
+          "matching_skills": [
+            {
+              "skill": "Programming",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Science",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Management_of_Financial_Resources",
+              "difference": 0.017142857142857144,
+              "importance": 1.12
+            },
+            {
+              "skill": "Technology_Design",
+              "difference": 0.017142857142857144,
+              "importance": 1.12
+            },
+            {
+              "skill": "Management_of_Material_Resources",
+              "difference": 0.054285714285714284,
+              "importance": 1.38
+            }
+          ]
+        },
+        {
+          "onet_code": "39-3093.00",
+          "career_en": "Locker Room, Coatroom, and Dressing Room Attendants",
+          "career_th": "พนักงานดูแลห้องล็อกเกอร์ ห้องฝากเสื้อ และห้องแต่งตัว",
+          "rank": 10,
+          "distance": 1.3184120008865334,
+          "match_score": 77.71476975931219,
+          "matching_skills": [
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Programming",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Science",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.017142857142857144,
+              "importance": 1.12
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.017142857142857144,
+              "importance": 1.12
+            }
+          ]
+        }
+      ]
+    },
+    "threes": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0,
+      "max_score_difference": 0.0,
+      "same_gap_records": true,
+      "top10": [
+        {
+          "onet_code": "17-2112.03",
+          "career_en": "Manufacturing Engineers",
+          "career_th": "วิศวกรการผลิต",
+          "rank": 1,
+          "distance": 0.538904785047355,
+          "match_score": 90.89084656047342,
+          "matching_skills": [
+            {
+              "skill": "Management_of_Material_Resources",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Social_Perceptiveness",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Troubleshooting",
+              "difference": 0.017142857142857126,
+              "importance": 3.5
+            },
+            {
+              "skill": "Persuasion",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Coordination",
+              "difference": 0.017142857142857126,
+              "importance": 3.0
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2199.08",
+          "career_en": "Robotics Engineers",
+          "career_th": "วิศวกรหุ่นยนต์",
+          "rank": 2,
+          "distance": 0.5418072554338992,
+          "match_score": 90.8417858565452,
+          "matching_skills": [
+            {
+              "skill": "Instructing",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Social_Perceptiveness",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Management_of_Personnel_Resources",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Persuasion",
+              "difference": 0.017142857142857182,
+              "importance": 3.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.017142857142857182,
+              "importance": 2.88
+            }
+          ]
+        },
+        {
+          "onet_code": "15-1244.00",
+          "career_en": "Network and Computer Systems Administrators",
+          "career_th": "ผู้ดูแลเครือข่ายและระบบคอมพิวเตอร์",
+          "rank": 3,
+          "distance": 0.5674486401284885,
+          "match_score": 90.40836734910994,
+          "matching_skills": [
+            {
+              "skill": "Learning_Strategies",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Writing",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Speaking",
+              "difference": 0.017142857142857126,
+              "importance": 3.25
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.017142857142857126,
+              "importance": 3.0
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2072.00",
+          "career_en": "Electronics Engineers, Except Computer",
+          "career_th": "วิศวกรอิเล็กทรอนิกส์",
+          "rank": 4,
+          "distance": 0.5871671875389912,
+          "match_score": 90.0750630642889,
+          "matching_skills": [
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.0,
+              "importance": 3.25
+            },
+            {
+              "skill": "Operations_Monitoring",
+              "difference": 0.017142857142857182,
+              "importance": 3.0
+            },
+            {
+              "skill": "Monitoring",
+              "difference": 0.0357142857142857,
+              "importance": 3.38
+            },
+            {
+              "skill": "Instructing",
+              "difference": 0.0357142857142857,
+              "importance": 3.0
+            },
+            {
+              "skill": "Science",
+              "difference": 0.0357142857142857,
+              "importance": 3.0
+            }
+          ]
+        },
+        {
+          "onet_code": "15-1241.01",
+          "career_en": "Telecommunications Engineering Specialists",
+          "career_th": "ผู้เชี่ยวชาญด้านวิศวกรรมโทรคมนาคม",
+          "rank": 5,
+          "distance": 0.616242729807675,
+          "match_score": 89.58359669915056,
+          "matching_skills": [
+            {
+              "skill": "Monitoring",
+              "difference": 0.0,
+              "importance": 3.25
+            },
+            {
+              "skill": "Systems_Evaluation",
+              "difference": 0.0,
+              "importance": 3.12
+            },
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.017142857142857126,
+              "importance": 3.38
+            },
+            {
+              "skill": "Systems_Analysis",
+              "difference": 0.017142857142857126,
+              "importance": 3.25
+            },
+            {
+              "skill": "Coordination",
+              "difference": 0.017142857142857182,
+              "importance": 3.25
+            }
+          ]
+        },
+        {
+          "onet_code": "15-1241.00",
+          "career_en": "Computer Network Architects",
+          "career_th": "นักออกแบบเครือข่ายคอมพิวเตอร์",
+          "rank": 6,
+          "distance": 0.624886928547388,
+          "match_score": 89.43748307227881,
+          "matching_skills": [
+            {
+              "skill": "Mathematics",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Programming",
+              "difference": 0.017142857142857126,
+              "importance": 3.88
+            },
+            {
+              "skill": "Coordination",
+              "difference": 0.017142857142857126,
+              "importance": 3.5
+            },
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.017142857142857126,
+              "importance": 3.25
+            },
+            {
+              "skill": "Troubleshooting",
+              "difference": 0.017142857142857126,
+              "importance": 2.88
+            }
+          ]
+        },
+        {
+          "onet_code": "49-2094.00",
+          "career_en": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+          "career_th": "ช่างซ่อมอุปกรณ์ไฟฟ้าและอิเล็กทรอนิกส์เชิงพาณิชย์และอุตสาหกรรม",
+          "rank": 7,
+          "distance": 0.6367743969829979,
+          "match_score": 89.23654818175268,
+          "matching_skills": [
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Active_Listening",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Critical_Thinking",
+              "difference": 0.0357142857142857,
+              "importance": 3.75
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0357142857142857,
+              "importance": 3.75
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0357142857142857,
+              "importance": 3.12
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2072.01",
+          "career_en": "Radio Frequency Identification Device Specialists",
+          "career_th": "ผู้เชี่ยวชาญระบบระบุข้อมูลด้วยคลื่นวิทยุ",
+          "rank": 8,
+          "distance": 0.6473430784556905,
+          "match_score": 89.05790485948235,
+          "matching_skills": [
+            {
+              "skill": "Systems_Analysis",
+              "difference": 0.0,
+              "importance": 3.25
+            },
+            {
+              "skill": "Active_Learning",
+              "difference": 0.0,
+              "importance": 3.12
+            },
+            {
+              "skill": "Instructing",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Systems_Evaluation",
+              "difference": 0.0,
+              "importance": 2.88
+            },
+            {
+              "skill": "Active_Listening",
+              "difference": 0.017142857142857126,
+              "importance": 3.75
+            }
+          ]
+        },
+        {
+          "onet_code": "17-3024.01",
+          "career_en": "Robotics Technicians",
+          "career_th": "ช่างเทคนิคหุ่นยนต์",
+          "rank": 9,
+          "distance": 0.6609331683772752,
+          "match_score": 88.82819041309493,
+          "matching_skills": [
+            {
+              "skill": "Active_Listening",
+              "difference": 0.017142857142857126,
+              "importance": 3.75
+            },
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.017142857142857126,
+              "importance": 3.75
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.017142857142857126,
+              "importance": 3.38
+            },
+            {
+              "skill": "Active_Learning",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Speaking",
+              "difference": 0.0357142857142857,
+              "importance": 3.25
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2141.00",
+          "career_en": "Mechanical Engineers",
+          "career_th": "วิศวกรเครื่องกล",
+          "rank": 10,
+          "distance": 0.6653003004628195,
+          "match_score": 88.75437240783374,
+          "matching_skills": [
+            {
+              "skill": "Technology_Design",
+              "difference": 0.0,
+              "importance": 3.12
+            },
+            {
+              "skill": "Instructing",
+              "difference": 0.0,
+              "importance": 2.88
+            },
+            {
+              "skill": "Operations_Monitoring",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Coordination",
+              "difference": 0.017142857142857182,
+              "importance": 3.0
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.017142857142857182,
+              "importance": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    "fives": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0,
+      "max_score_difference": 0.0,
+      "same_gap_records": true,
+      "top10": [
+        {
+          "onet_code": "17-2112.03",
+          "career_en": "Manufacturing Engineers",
+          "career_th": "วิศวกรการผลิต",
+          "rank": 1,
+          "distance": 2.7269273281591535,
+          "match_score": 53.906515325416514,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.3214285714285714,
+              "importance": 4.0
+            },
+            {
+              "skill": "Judgment_and_Decision_Making",
+              "difference": 0.33999999999999997,
+              "importance": 3.88
+            },
+            {
+              "skill": "Monitoring",
+              "difference": 0.33999999999999997,
+              "importance": 3.88
+            },
+            {
+              "skill": "Systems_Analysis",
+              "difference": 0.33999999999999997,
+              "importance": 3.75
+            },
+            {
+              "skill": "Mathematics",
+              "difference": 0.3571428571428571,
+              "importance": 4.0
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2199.08",
+          "career_en": "Robotics Engineers",
+          "career_th": "วิศวกรหุ่นยนต์",
+          "rank": 2,
+          "distance": 2.7724379605138068,
+          "match_score": 53.1372452340181,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.3028571428571428,
+              "importance": 3.88
+            },
+            {
+              "skill": "Critical_Thinking",
+              "difference": 0.33999999999999997,
+              "importance": 4.0
+            },
+            {
+              "skill": "Mathematics",
+              "difference": 0.33999999999999997,
+              "importance": 3.75
+            },
+            {
+              "skill": "Active_Learning",
+              "difference": 0.3571428571428571,
+              "importance": 3.75
+            },
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.3928571428571429,
+              "importance": 3.62
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2031.00",
+          "career_en": "Bioengineers and Biomedical Engineers",
+          "career_th": "วิศวกรชีวภาพและวิศวกรชีวการแพทย์",
+          "rank": 3,
+          "distance": 2.9827880397031103,
+          "match_score": 49.5816799458317,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.2857142857142857,
+              "importance": 4.0
+            },
+            {
+              "skill": "Critical_Thinking",
+              "difference": 0.33999999999999997,
+              "importance": 3.88
+            },
+            {
+              "skill": "Judgment_and_Decision_Making",
+              "difference": 0.33999999999999997,
+              "importance": 3.88
+            },
+            {
+              "skill": "Science",
+              "difference": 0.33999999999999997,
+              "importance": 3.88
+            },
+            {
+              "skill": "Active_Learning",
+              "difference": 0.33999999999999997,
+              "importance": 3.75
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2141.00",
+          "career_en": "Mechanical Engineers",
+          "career_th": "วิศวกรเครื่องกล",
+          "rank": 4,
+          "distance": 3.0759057070019793,
+          "match_score": 48.00770409167102,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.3214285714285714,
+              "importance": 3.88
+            },
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.3571428571428571,
+              "importance": 3.75
+            },
+            {
+              "skill": "Mathematics",
+              "difference": 0.3571428571428571,
+              "importance": 3.75
+            },
+            {
+              "skill": "Science",
+              "difference": 0.3571428571428571,
+              "importance": 3.75
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.37428571428571433,
+              "importance": 3.5
+            }
+          ]
+        },
+        {
+          "onet_code": "15-1244.00",
+          "career_en": "Network and Computer Systems Administrators",
+          "career_th": "ผู้ดูแลเครือข่ายและระบบคอมพิวเตอร์",
+          "rank": 5,
+          "distance": 3.1166370546812536,
+          "match_score": 47.31921865583172,
+          "matching_skills": [
+            {
+              "skill": "Systems_Evaluation",
+              "difference": 0.37428571428571433,
+              "importance": 4.0
+            },
+            {
+              "skill": "Judgment_and_Decision_Making",
+              "difference": 0.41142857142857137,
+              "importance": 4.0
+            },
+            {
+              "skill": "Troubleshooting",
+              "difference": 0.41142857142857137,
+              "importance": 4.0
+            },
+            {
+              "skill": "Active_Listening",
+              "difference": 0.4285714285714286,
+              "importance": 4.0
+            },
+            {
+              "skill": "Systems_Analysis",
+              "difference": 0.4285714285714286,
+              "importance": 4.0
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2199.09",
+          "career_en": "Nanosystems Engineers",
+          "career_th": "วิศวกรระบบนาโน",
+          "rank": 6,
+          "distance": 3.122208140638512,
+          "match_score": 47.22505011582702,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.2857142857142857,
+              "importance": 4.0
+            },
+            {
+              "skill": "Critical_Thinking",
+              "difference": 0.3028571428571428,
+              "importance": 4.0
+            },
+            {
+              "skill": "Active_Learning",
+              "difference": 0.3028571428571428,
+              "importance": 3.88
+            },
+            {
+              "skill": "Science",
+              "difference": 0.3214285714285714,
+              "importance": 4.0
+            },
+            {
+              "skill": "Mathematics",
+              "difference": 0.3214285714285714,
+              "importance": 3.88
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2121.00",
+          "career_en": "Marine Engineers and Naval Architects",
+          "career_th": "วิศวกรทางทะเลและสถาปนิกเรือ",
+          "rank": 7,
+          "distance": 3.1575019188192024,
+          "match_score": 46.628476379929914,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.3571428571428571,
+              "importance": 3.88
+            },
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.37428571428571433,
+              "importance": 4.12
+            },
+            {
+              "skill": "Critical_Thinking",
+              "difference": 0.37428571428571433,
+              "importance": 4.12
+            },
+            {
+              "skill": "Mathematics",
+              "difference": 0.3928571428571429,
+              "importance": 3.62
+            },
+            {
+              "skill": "Science",
+              "difference": 0.41142857142857137,
+              "importance": 3.5
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2072.00",
+          "career_en": "Electronics Engineers, Except Computer",
+          "career_th": "วิศวกรอิเล็กทรอนิกส์",
+          "rank": 8,
+          "distance": 3.16303103148269,
+          "match_score": 46.53501731808153,
+          "matching_skills": [
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.41142857142857137,
+              "importance": 4.0
+            },
+            {
+              "skill": "Critical_Thinking",
+              "difference": 0.41142857142857137,
+              "importance": 4.0
+            },
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.41142857142857137,
+              "importance": 4.0
+            },
+            {
+              "skill": "Mathematics",
+              "difference": 0.41142857142857137,
+              "importance": 3.5
+            },
+            {
+              "skill": "Speaking",
+              "difference": 0.4285714285714286,
+              "importance": 3.88
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2199.07",
+          "career_en": "Photonics Engineers",
+          "career_th": "วิศวกรโฟโตนิกส์",
+          "rank": 9,
+          "distance": 3.1681276257532964,
+          "match_score": 46.44886915143296,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.2857142857142857,
+              "importance": 3.88
+            },
+            {
+              "skill": "Active_Learning",
+              "difference": 0.2857142857142857,
+              "importance": 3.62
+            },
+            {
+              "skill": "Mathematics",
+              "difference": 0.3028571428571428,
+              "importance": 3.62
+            },
+            {
+              "skill": "Critical_Thinking",
+              "difference": 0.3214285714285714,
+              "importance": 4.0
+            },
+            {
+              "skill": "Writing",
+              "difference": 0.3214285714285714,
+              "importance": 3.88
+            }
+          ]
+        },
+        {
+          "onet_code": "19-2012.00",
+          "career_en": "Physicists",
+          "career_th": "นักฟิสิกส์",
+          "rank": 10,
+          "distance": 3.203925207412601,
+          "match_score": 45.84377958246591,
+          "matching_skills": [
+            {
+              "skill": "Science",
+              "difference": 0.16000000000000003,
+              "importance": 4.88
+            },
+            {
+              "skill": "Mathematics",
+              "difference": 0.16000000000000003,
+              "importance": 4.5
+            },
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.16000000000000003,
+              "importance": 4.5
+            },
+            {
+              "skill": "Active_Learning",
+              "difference": 0.1785714285714286,
+              "importance": 4.5
+            },
+            {
+              "skill": "Learning_Strategies",
+              "difference": 0.26857142857142857,
+              "importance": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    "cycle": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0,
+      "max_score_difference": 0.0,
+      "same_gap_records": true,
+      "top10": [
+        {
+          "onet_code": "47-2111.00",
+          "career_en": "Electricians",
+          "career_th": "ช่างไฟฟ้า",
+          "rank": 1,
+          "distance": 2.0147304473577115,
+          "match_score": 65.94483980569086,
+          "matching_skills": [
+            {
+              "skill": "Installation",
+              "difference": 0.0357142857142857,
+              "importance": 3.25
+            },
+            {
+              "skill": "Technology_Design",
+              "difference": 0.0357142857142857,
+              "importance": 2.12
+            },
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.05428571428571427,
+              "importance": 3.25
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.05428571428571427,
+              "importance": 3.0
+            },
+            {
+              "skill": "Social_Perceptiveness",
+              "difference": 0.05428571428571427,
+              "importance": 2.88
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2121.00",
+          "career_en": "Marine Engineers and Naval Architects",
+          "career_th": "วิศวกรทางทะเลและสถาปนิกเรือ",
+          "rank": 2,
+          "distance": 2.0404386283146008,
+          "match_score": 65.51029223534994,
+          "matching_skills": [
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.017142857142857126,
+              "importance": 3.38
+            },
+            {
+              "skill": "Programming",
+              "difference": 0.018571428571428544,
+              "importance": 2.25
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.0357142857142857,
+              "importance": 3.5
+            },
+            {
+              "skill": "Social_Perceptiveness",
+              "difference": 0.0357142857142857,
+              "importance": 3.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.05428571428571427,
+              "importance": 3.0
+            }
+          ]
+        },
+        {
+          "onet_code": "17-3024.00",
+          "career_en": "Electro-Mechanical and Mechatronics Technologists and Technicians",
+          "career_th": "นักเทคโนโลยีและช่างเทคนิคไฟฟ้าเครื่องกลและเมคคาทรอนิกส์",
+          "rank": 3,
+          "distance": 2.0408071632447347,
+          "match_score": 65.50406285806557,
+          "matching_skills": [
+            {
+              "skill": "Negotiation",
+              "difference": 0.0,
+              "importance": 2.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.017142857142857182,
+              "importance": 3.12
+            },
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.0357142857142857,
+              "importance": 3.62
+            },
+            {
+              "skill": "Technology_Design",
+              "difference": 0.035714285714285726,
+              "importance": 2.12
+            },
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.05428571428571427,
+              "importance": 3.25
+            }
+          ]
+        },
+        {
+          "onet_code": "49-1011.00",
+          "career_en": "First-Line Supervisors of Mechanics, Installers, and Repairers",
+          "career_th": "หัวหน้างานช่างเครื่อง ช่างติดตั้ง และช่างซ่อม",
+          "rank": 4,
+          "distance": 2.041603511448582,
+          "match_score": 65.49060211661102,
+          "matching_skills": [
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.017142857142857126,
+              "importance": 3.62
+            },
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Social_Perceptiveness",
+              "difference": 0.0357142857142857,
+              "importance": 3.12
+            },
+            {
+              "skill": "Management_of_Material_Resources",
+              "difference": 0.0357142857142857,
+              "importance": 2.88
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.05428571428571427,
+              "importance": 3.75
+            }
+          ]
+        },
+        {
+          "onet_code": "15-1241.01",
+          "career_en": "Telecommunications Engineering Specialists",
+          "career_th": "ผู้เชี่ยวชาญด้านวิศวกรรมโทรคมนาคม",
+          "rank": 5,
+          "distance": 2.042872127817168,
+          "match_score": 65.46915858618046,
+          "matching_skills": [
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.017142857142857126,
+              "importance": 3.38
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.0357142857142857,
+              "importance": 3.25
+            },
+            {
+              "skill": "Programming",
+              "difference": 0.0357142857142857,
+              "importance": 2.12
+            },
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.05428571428571427,
+              "importance": 3.0
+            },
+            {
+              "skill": "Social_Perceptiveness",
+              "difference": 0.05428571428571427,
+              "importance": 3.0
+            }
+          ]
+        },
+        {
+          "onet_code": "15-1241.00",
+          "career_en": "Computer Network Architects",
+          "career_th": "นักออกแบบเครือข่ายคอมพิวเตอร์",
+          "rank": 6,
+          "distance": 2.043924296693066,
+          "match_score": 65.45137368613729,
+          "matching_skills": [
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.017142857142857126,
+              "importance": 3.25
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.05428571428571427,
+              "importance": 3.12
+            },
+            {
+              "skill": "Social_Perceptiveness",
+              "difference": 0.07142857142857145,
+              "importance": 3.0
+            },
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.08857142857142863,
+              "importance": 3.88
+            },
+            {
+              "skill": "Management_of_Financial_Resources",
+              "difference": 0.12428571428571428,
+              "importance": 2.5
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2199.08",
+          "career_en": "Robotics Engineers",
+          "career_th": "วิศวกรหุ่นยนต์",
+          "rank": 7,
+          "distance": 2.044151438137795,
+          "match_score": 65.44753429496852,
+          "matching_skills": [
+            {
+              "skill": "Social_Perceptiveness",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.017142857142857182,
+              "importance": 2.88
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0357142857142857,
+              "importance": 2.5
+            },
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.052857142857142825,
+              "importance": 3.88
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.0714285714285714,
+              "importance": 3.62
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2199.07",
+          "career_en": "Photonics Engineers",
+          "career_th": "วิศวกรโฟโตนิกส์",
+          "rank": 8,
+          "distance": 2.0460494537881866,
+          "match_score": 65.41545197491914,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.0357142857142857,
+              "importance": 3.88
+            },
+            {
+              "skill": "Management_of_Financial_Resources",
+              "difference": 0.05285714285714288,
+              "importance": 1.75
+            },
+            {
+              "skill": "Complex_Problem_Solving",
+              "difference": 0.0714285714285714,
+              "importance": 3.38
+            },
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.0714285714285714,
+              "importance": 3.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.07142857142857145,
+              "importance": 2.88
+            }
+          ]
+        },
+        {
+          "onet_code": "17-3023.00",
+          "career_en": "Electrical and Electronic Engineering Technologists and Technicians",
+          "career_th": "นักเทคโนโลยีและช่างเทคนิควิศวกรรมไฟฟ้าและอิเล็กทรอนิกส์",
+          "rank": 9,
+          "distance": 2.0463870601623735,
+          "match_score": 65.4097453856478,
+          "matching_skills": [
+            {
+              "skill": "Management_of_Financial_Resources",
+              "difference": 0.0,
+              "importance": 2.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0357142857142857,
+              "importance": 2.88
+            },
+            {
+              "skill": "Technology_Design",
+              "difference": 0.0357142857142857,
+              "importance": 2.5
+            },
+            {
+              "skill": "Programming",
+              "difference": 0.0357142857142857,
+              "importance": 2.25
+            },
+            {
+              "skill": "Service_Orientation",
+              "difference": 0.05285714285714288,
+              "importance": 2.25
+            }
+          ]
+        },
+        {
+          "onet_code": "17-2072.00",
+          "career_en": "Electronics Engineers, Except Computer",
+          "career_th": "วิศวกรอิเล็กทรอนิกส์",
+          "rank": 10,
+          "distance": 2.0477638376272487,
+          "match_score": 65.38647359900271,
+          "matching_skills": [
+            {
+              "skill": "Quality_Control_Analysis",
+              "difference": 0.05428571428571427,
+              "importance": 3.12
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.07142857142857145,
+              "importance": 2.88
+            },
+            {
+              "skill": "Social_Perceptiveness",
+              "difference": 0.07142857142857145,
+              "importance": 2.88
+            },
+            {
+              "skill": "Management_of_Financial_Resources",
+              "difference": 0.07142857142857145,
+              "importance": 2.0
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.08857142857142858,
+              "importance": 2.75
+            }
+          ]
+        }
+      ]
+    },
+    "doctor": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0,
+      "max_score_difference": 0.0,
+      "same_gap_records": true,
+      "top10": [
+        {
+          "onet_code": "29-1215.00",
+          "career_en": "Family Medicine Physicians",
+          "career_th": "แพทย์เวชศาสตร์ครอบครัว",
+          "rank": 1,
+          "distance": 0.40977594674481954,
+          "match_score": 93.0735223024642,
+          "matching_skills": [
+            {
+              "skill": "Management_of_Personnel_Resources",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Persuasion",
+              "difference": 0.017142857142857126,
+              "importance": 3.0
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1221.00",
+          "career_en": "Pediatricians, General",
+          "career_th": "กุมารแพทย์ทั่วไป",
+          "rank": 2,
+          "distance": 0.4378542297735795,
+          "match_score": 92.59891269511964,
+          "matching_skills": [
+            {
+              "skill": "Coordination",
+              "difference": 0.0,
+              "importance": 3.38
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1218.00",
+          "career_en": "Obstetricians and Gynecologists",
+          "career_th": "สูตินรีแพทย์",
+          "rank": 3,
+          "distance": 0.4382153044580072,
+          "match_score": 92.59280941900326,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.0,
+              "importance": 4.25
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1216.00",
+          "career_en": "General Internal Medicine Physicians",
+          "career_th": "อายุรแพทย์ทั่วไป",
+          "rank": 4,
+          "distance": 0.46837103728927215,
+          "match_score": 92.08308450086726,
+          "matching_skills": [
+            {
+              "skill": "Coordination",
+              "difference": 0.0,
+              "importance": 3.25
+            },
+            {
+              "skill": "Instructing",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Learning_Strategies",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Persuasion",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Systems_Evaluation",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            }
+          ]
+        },
+        {
+          "onet_code": "25-1051.00",
+          "career_en": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
+          "career_th": "อาจารย์วิทยาศาสตร์บรรยากาศ โลก ทะเล และอวกาศระดับหลังมัธยมศึกษา",
+          "rank": 5,
+          "distance": 0.5077782739643406,
+          "match_score": 91.4169806260067,
+          "matching_skills": [
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1051.00",
+          "career_en": "Pharmacists",
+          "career_th": "เภสัชกร",
+          "rank": 6,
+          "distance": 0.5113088447248659,
+          "match_score": 91.35730308800915,
+          "matching_skills": [
+            {
+              "skill": "Instructing",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Coordination",
+              "difference": 0.017142857142857126,
+              "importance": 3.38
+            }
+          ]
+        },
+        {
+          "onet_code": "25-1053.00",
+          "career_en": "Environmental Science Teachers, Postsecondary",
+          "career_th": "อาจารย์วิทยาศาสตร์สิ่งแวดล้อมระดับหลังมัธยมศึกษา",
+          "rank": 7,
+          "distance": 0.5129267760129305,
+          "match_score": 91.32995505776982,
+          "matching_skills": [
+            {
+              "skill": "Time_Management",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1071.00",
+          "career_en": "Physician Assistants",
+          "career_th": "ผู้ช่วยแพทย์",
+          "rank": 8,
+          "distance": 0.520051017905444,
+          "match_score": 91.20953339082635,
+          "matching_skills": [
+            {
+              "skill": "Persuasion",
+              "difference": 0.0,
+              "importance": 3.25
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "19-3051.00",
+          "career_en": "Urban and Regional Planners",
+          "career_th": "นักวางผังเมืองและภูมิภาค",
+          "rank": 9,
+          "distance": 0.5282643895873749,
+          "match_score": 91.07070207037336,
+          "matching_skills": [
+            {
+              "skill": "Mathematics",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "19-1041.00",
+          "career_en": "Epidemiologists",
+          "career_th": "นักระบาดวิทยา",
+          "rank": 10,
+          "distance": 0.5407232495954482,
+          "match_score": 90.86010889947555,
+          "matching_skills": [
+            {
+              "skill": "Management_of_Personnel_Resources",
+              "difference": 0.0,
+              "importance": 3.12
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Management_of_Material_Resources",
+              "difference": 0.0,
+              "importance": 2.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    "new_prompt_doctor": {
+      "exact_ranking": true,
+      "max_distance_difference": 0.0,
+      "max_score_difference": 0.0,
+      "same_gap_records": true,
+      "top10": [
+        {
+          "onet_code": "29-1215.00",
+          "career_en": "Family Medicine Physicians",
+          "career_th": "แพทย์เวชศาสตร์ครอบครัว",
+          "rank": 1,
+          "distance": 0.47100413794274065,
+          "match_score": 92.03857697645911,
+          "matching_skills": [
+            {
+              "skill": "Management_of_Personnel_Resources",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.0357142857142857,
+              "importance": 4.25
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1221.00",
+          "career_en": "Pediatricians, General",
+          "career_th": "กุมารแพทย์ทั่วไป",
+          "rank": 2,
+          "distance": 0.5216066232207534,
+          "match_score": 91.18323886180812,
+          "matching_skills": [
+            {
+              "skill": "Coordination",
+              "difference": 0.0,
+              "importance": 3.38
+            },
+            {
+              "skill": "Time_Management",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1216.00",
+          "career_en": "General Internal Medicine Physicians",
+          "career_th": "อายุรแพทย์ทั่วไป",
+          "rank": 3,
+          "distance": 0.5227810249043091,
+          "match_score": 91.16338785021577,
+          "matching_skills": [
+            {
+              "skill": "Coordination",
+              "difference": 0.0,
+              "importance": 3.25
+            },
+            {
+              "skill": "Instructing",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Learning_Strategies",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Systems_Evaluation",
+              "difference": 0.017142857142857126,
+              "importance": 3.12
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.017142857142857144,
+              "importance": 1.12
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1218.00",
+          "career_en": "Obstetricians and Gynecologists",
+          "career_th": "สูตินรีแพทย์",
+          "rank": 4,
+          "distance": 0.5307311091353902,
+          "match_score": 91.02900689994881,
+          "matching_skills": [
+            {
+              "skill": "Reading_Comprehension",
+              "difference": 0.0,
+              "importance": 4.25
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "19-3051.00",
+          "career_en": "Urban and Regional Planners",
+          "career_th": "นักวางผังเมืองและภูมิภาค",
+          "rank": 5,
+          "distance": 0.568951775152323,
+          "match_score": 90.38295972989344,
+          "matching_skills": [
+            {
+              "skill": "Mathematics",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1071.00",
+          "career_en": "Physician Assistants",
+          "career_th": "ผู้ช่วยแพทย์",
+          "rank": 6,
+          "distance": 0.57702084990448,
+          "match_score": 90.24656747272329,
+          "matching_skills": [
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Learning_Strategies",
+              "difference": 0.017142857142857182,
+              "importance": 3.12
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1141.04",
+          "career_en": "Clinical Nurse Specialists",
+          "career_th": "พยาบาลผู้เชี่ยวชาญทางคลินิก",
+          "rank": 7,
+          "distance": 0.5823229344616276,
+          "match_score": 90.15694588627521,
+          "matching_skills": [
+            {
+              "skill": "Management_of_Material_Resources",
+              "difference": 0.0,
+              "importance": 2.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1223.00",
+          "career_en": "Psychiatrists",
+          "career_th": "จิตแพทย์",
+          "rank": 8,
+          "distance": 0.5862749929401208,
+          "match_score": 90.09014390551452,
+          "matching_skills": [
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Equipment_Selection",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operation_and_Control",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "19-1041.00",
+          "career_en": "Epidemiologists",
+          "career_th": "นักระบาดวิทยา",
+          "rank": 9,
+          "distance": 0.5884812691000729,
+          "match_score": 90.05285103184073,
+          "matching_skills": [
+            {
+              "skill": "Management_of_Personnel_Resources",
+              "difference": 0.0,
+              "importance": 3.12
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.0,
+              "importance": 3.0
+            },
+            {
+              "skill": "Management_of_Material_Resources",
+              "difference": 0.0,
+              "importance": 2.0
+            },
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            }
+          ]
+        },
+        {
+          "onet_code": "29-1171.00",
+          "career_en": "Nurse Practitioners",
+          "career_th": "พยาบาลเวชปฏิบัติ",
+          "rank": 10,
+          "distance": 0.594906955510092,
+          "match_score": 89.94423710766115,
+          "matching_skills": [
+            {
+              "skill": "Equipment_Maintenance",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Installation",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Repairing",
+              "difference": 0.0,
+              "importance": 1.0
+            },
+            {
+              "skill": "Operations_Analysis",
+              "difference": 0.017142857142857182,
+              "importance": 3.0
+            },
+            {
+              "skill": "Systems_Analysis",
+              "difference": 0.0357142857142857,
+              "importance": 3.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "mobile_render_checks": "Pending at375/768/1440px; Browser saved permission remains blocked.",
+  "deployment_note": "User reports successful prior deployment; this revision has not been redeployed or tested at a public URL."
+}
